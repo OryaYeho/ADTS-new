@@ -68,7 +68,14 @@ namespace ADTS
 
             public Dictionary<string, decimal> NWeight { get; set; } = new Dictionary<string, decimal>();
             public Dictionary<string, decimal> SWWeight { get; set; } = new Dictionary<string, decimal>();
-            public Document(string path, string category){
+
+            public Document(string path, string category)
+            {
+                Document(string path);
+                this.catlist.Add(category);
+            }
+
+            public Document(string path){
                 this.path = path;
                 string[] splt = path.Split('\\');
                 this.Name = splt[splt.Length - 1];
@@ -76,7 +83,7 @@ namespace ADTS
                 string[] notions = new string[] { };
                 Tools.DLLTransformation(path, ref notions, ref sw);
                 
-                this.catlist.Add(category);
+                //this.catlist.Add(category);
                 for (int i = 0; i < notions.Length; i++)
                 {
                     string notionLen = notions[i].Split(')')[0];

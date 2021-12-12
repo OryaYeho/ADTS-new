@@ -26,8 +26,11 @@ namespace ADTS
         {
             
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            
-            var a = Tools.GetAllCategories();
+            UpdateSystem();
+            if (Tools.GetAllCategories().Count != 0)
+            {
+                UpdateSystem();
+            }
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -36,8 +39,22 @@ namespace ADTS
 
             Console.ReadLine();
         }
-        
 
+        
+        public static void UpdateSystem()
+        {
+            var all_categories = Tools.GetAllCategories();
+            var dbe_files = Directory.GetFiles(Tools.DBEDir);
+            foreach(string path in dbe_files)
+            {
+                Document dc = new Document(path);
+                foreach(Category ct in all_categories)
+                {
+
+                }
+            }
+            
+         }
 
     }
 }
