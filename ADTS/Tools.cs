@@ -70,8 +70,9 @@ namespace ADTS
             public Dictionary<string, decimal> SWWeight { get; set; } = new Dictionary<string, decimal>();
 
             public Document(string path, string category)
+                :this(path)
             {
-                Document(string path);
+               
                 this.catlist.Add(category);
             }
 
