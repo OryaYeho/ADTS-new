@@ -1,0 +1,50 @@
+Where the sun always shines: Putting solar in space
+Thanks to a big donation, Caltech has funded a sci-fi-sounding project.
+JOHN TIMMER - 8/18/2021, 11:16 PM
+
+Image of the International Space Station.
+Enlarge / See these solar panels in space? They're way too heavy to economically provide power to Earth.
+NASA
+346
+WITH 115 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+"This is an idea that's older than even the space program," Caltech's Harry Atwater told Ars over Zoom. Citing Asimov and Clarke, Atwater conjured an image of gleaming solar panels floating above the Earth on a large metal truss, all wired in to hardware that converts the current to a form suitable to beam back down to Earth. Unlimited clean power, delivered around the clock.
+
+He then explained why the system he is working on will end up looking nothing like that vision, even if it will ultimately accomplish the same thing.
+
+A long gestation
+In August, Caltech announced that a member of its board of trustees had given over $100 million meant to foster the development of space-based power. The timing was somewhat odd, given that the donor, Donald Bren, had started the process over a decade ago. At the time, Bren had described his interest in space-based power to the university administration, which began identifying faculty members who had research interests that might be relevant to the project.
+
+"Initially, I was very skeptical because this is an idea that's been visited many times," Atwater told Ars. "What could possibly be done that's new?" But over the course of the year, he gradually became convinced that some different approaches might be possible. Atwater certainly had relevant expertise; he had already formed a spinoff company focused on ultralight photovoltaic hardware. And he was joined by researchers at Caltech with complementary skills: Ali Hajimiri (who has done work on power conversion hardware) and Sergio Pellegrino (whom Atwater called "one of the world's leaders in the development of lightweight deployable space structures").
+
+The collective expertise has been critical in producing a design that represents a significant change in thinking compared to earlier ideas. "The key parameter in space is not efficiency, per se," Atwater told Ars. "It is the specific power—that is, the power per unit mass. What we care most about is watts per kilogram."
+
+"All those previous ideas never could develop a scalable and deployable approach," he said, "because the mass per unit area and total payload mass was, by orders of magnitude, too large."
+
+Traveling light
+Boosting the specific power by a couple of orders of magnitude required revisiting some important assumptions. Most photovoltaic systems in space use highly efficient cells that contain three light-harvesting layers, each tuned to different wavelengths of light. But those cells are the best way to get the most power out of a given unit of area. The team's current design now uses a single layer of photovoltaic material, which gives a greater efficiency per unit of mass.
+
+The loss of efficiency per unit area is offset by spreading out the photovoltaics over a large area. The researchers accomplished this by using a flexible membrane that Atwater described as "thinner than the thinnest plastic bag you've picked up." That membrane is held rigid using a "tensegrity structure"—a relatively small rigid structure that is held in the proper configuration by tension. (Atwater suggested thinking of an umbrella or backpacking tent.)
+
+Another major source of weight is the copper wiring that would be used to carry the current to where it is transmitted back to Earth. So the heavy wiring had to go, putting limits on how much current could be carried to a transmitter. The space solar project is focused on building small, self-contained units called "tiles," each with its own transmitter. This setup limits the total power that has to be carried by the wiring, allowing for far smaller wires. It also means that the power conversion for transmission can be handled by a small silicon chip.
+
+Individual tiles will be built into the larger tensegrity structure, currently planned for about 60 meters square. These tiles are designed to fit in a folded form within the fairings of current launch hardware and then expand once in orbit. While all the tiles of the structure will operate independently, the structure will provide the small thrusters needed to maintain a useful orientation throughout the course of an orbit.
+
+“Plants” in space
+On its own, an individual structure won't provide much power, so an eventual power plant will require multiple structures flying in formation. The full plant will involve a hierarchy of components—independently functioning tiles held on a single structure, with multiple structures combined to generate sufficient power. The entire ensemble is meant to be placed in geostationary orbit so that it can remain above a single ground receiving station while still enjoying around-the-clock sunlight.
+
+Atwater told Ars that the plan is to make the receiving station about the same size as a large utility-scale solar farm. It will consist of a large array of rectennas, which will convert the microwaves sent down from space into usable power.
+
+Early on in the discussion of the ground station, Atwater interrupted our questions. "I want to take something off the table that you haven't asked me about, which is the safety question, " he said. "How do you do this in a way that you haven't created a death ray?"
+
+The answer is in the physics that governs the focusing of photons. It says that a combination of aperture and wavelength dictates the smallest area of focus. There's just no way to focus the output of the in-space portion down to an area where it would be dangerous. The total energy flux at microwave frequencies ends up being the same as you get from sunlight. "You could walk under it," Atwater said.
+
+How this works out in energy-production terms is a little complicated. In space, you would get 30 percent more photons to work with than on the ground, and they're available 24/7. At the same time, the generating system would sometimes have to be at a less-than-optimal angle in order to remain capable of transmitting to the target station. Then you would lose significant fractions of that power during conversion and transmission.
+
+How does it all balance out? It depends on the assumptions you make, but Atwater provided a rough estimate: "The net power generated is a little more than you would get if the Sun were overhead at noon 24 hours a day."
+
+Next steps
+A dozen years ago, we talked to people who had formed a company taking an approach to space-based power that was indistinguishable from the one Atwater told us wouldn't work. So purely by challenging existing thinking, the Caltech project may perform an important function.
+
+But Atwater also said the project "has the goal of producing the underlying and foundational technology to produce cost-effective and scalable space solar power." By that measure, it has also made the project a success, generating a lot of intellectual property and plans to do a space-based demo in late 2022 or early 2023 (those dates may explain why Caltech decided to talk about the project now). Beyond that, Atwater said, he and his team need to find commercial partners for an actual deployment. If they can attract a partner, that would serve as a validation of achieving the "cost-effective" part of the goal.

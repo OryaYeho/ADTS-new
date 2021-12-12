@@ -1,0 +1,39 @@
+AirTag Owners Bemoan Inability to Let Others Track Their Items Via Family Sharing
+Tuesday May 4, 2021 5:12 am PDT by Tim Hardwick
+Apple's new AirTag item trackers have been making their way into the hands of customers since Friday, and while the company has tried to describe the ways that they can be used to find lost items, many users are still surprised and disappointed to learn that the location of an AirTag can't be shared with other family members.
+
+airtags
+On the face of it, sharing the location of an AirTag via Apple's Family Sharing feature should be a no-brainer, since individual members in a Family Sharing group can use the Find My app to see the location of other family members' Apple devices, including iPhones, iPads, Macs, AirPods, and Apple Watches.
+
+Given those Family Sharing privileges, many users have understandably assumed that an AirTag attached to an item that's regularly used by more than one person in the household (a set of keys, for example) could be tracked by multiple family members within Find My.
+
+Unfortunately, however, AirTags don't work like other Apple devices in Find My, and several users have taken to the MacRumors forums, Reddit, and Apple's community support site to share their displeasure after learning about the Family Sharing limitation:
+Apple Communities user Amadeus4000:
+
+I received my first two AirTags today. One for each of our dogs. I was disappointed to see I couldn't share them with my wife. That would have made a lot of sense.
+
+Apple Communities user MikeyPD:
+
+It is extremely disappointing that there is not currently an option to share AirTags with family members. This is a very convenient feature that Tile (as well as other trackers) offers. I suppose I should have looked into this before ordering them. I suppose it just seemed like such a no-brainer feature that I didn't even think to checking.
+
+I hope this is functionality they add soon. If Tile could figure out how to do it I am sure Apple can. This is kind of a bummer.
+
+MacRumors forum member Mr X:
+
+Surprised that Apple didn't include a share option at least with official family share members. Tile used to allow me to share "items."
+
+For example, me and the wife both have our own cars, but we swap at random. She's always losing hers in the house and now I won't be able to find them, only she can. Hope they add this feature.
+
+MacRumors forum member Leebroath:
+
+1. Husband opens brand new Air Tags and registers one to his phone
+2. Places one in the Belkin holder, then connects to only set of car keys
+3. 8am Wife picks up car keys in morning, drives to work, husband goes to bed as on nightshift
+4. 4pm Wife finishes work but can't remember where car keys are, confused she looks into Find My…
+5. *Fail*
+
+If a husband and wife are on the same iCloud Family Sharing plan, then it should be possible for each person to see the AirTag regardless of whose phone it is.
+
+As Apple has explained, the only AirTag privilege afforded to people in an iCloud Family Sharing group is that they can silence the "AirTag Detected" safety alert that appears when an AirTag is traveling with them that is registered to someone else. (Likewise, the owner of the AirTag can disable the safety alerts to prevent someone else's iPhone from detecting it as unwanted tracking.)
+
+But that's as far as the Family Sharing functionality goes. AirTags are only meant to be owned by one person, and it's not currently possible to share an AirTag's location with another family member using another Apple ID. It's likely that Apple has omitted this feature due to privacy concerns, so whether or not it intends to introduce it in the future via some other form of implementation remains to be seen.

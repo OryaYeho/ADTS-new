@@ -1,0 +1,55 @@
+Apple brass discussed disclosing 128-million iPhone hack, then decided not to
+Emails entered into Epic Games lawsuit show execs contradicting Apple talking points.
+DAN GOODIN - 5/8/2021, 7:10 PM
+
+Apple brass discussed disclosing 128-million iPhone hack, then decided not to
+Enlarge
+Getty Images
+328
+WITH 114 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+In September 2015, Apple managers had a dilemma on their hands: should, or should they not notify 128 million iPhone users of what remains the worst mass iOS compromise on record? Ultimately, all evidence shows, they chose to keep quiet.
+
+FURTHER READING
+Apple scrambles after 40 malicious “XcodeGhost” apps haunt App Store
+The mass hack first came to light when researchers uncovered 40 malicious App Store apps, a number that mushroomed to 4,000 as more researchers poked around. The apps contained code that made iPhones and iPads part of a botnet that stole potentially sensitive user information.
+Enlarge
+128 million infected
+An email entered into court this week in Epic Games’ lawsuit against Apple shows that, on the afternoon of September 21, 2015, Apple managers had uncovered 2,500 malicious apps that had been downloaded a total of 203 million times by 128 million users, 18 million of whom were in the US.
+
+“Joz, Tom and Christine—due to the large number of customers potentially affected, do we want to send an email to all of them?” App Store VP Matthew Fischer wrote, referring to Apple Senior Vice President of Worldwide Marketing Greg Joswiak and Apple PR people Tom Neumayr and Christine Monaghan. The email continued:
+
+If yes, Dale Bagwell from our Customer Experience team will be on point to manage this on our side. Note that this will pose some challenges in terms of language localizations of the email, since the downloads of these apps took place in a wide variety of App Store storefronts around the world (e.g. we wouldn’t want to send an English-language email to a customer who downloaded one or more of these apps from the Brazil App Store, where Brazilian Portuguese would be the more appropriate language).
+
+The dog ate our disclosure
+About 10 hours later, Bagwell discusses the logistics of notifying all 128 million affected users, localizing notifications to each users’ language, and “accurately includ[ing] the names of the apps for each customer.”
+
+Alas, all appearances are that Apple never followed through on its plans. An Apple representative could point to no evidence that such an email was ever sent. Statements the representative sent on background—meaning I’m not permitted to quote them—noted that Apple instead published only this now-deleted post.
+
+The post provides very general information about the malicious app campaign and eventually lists only the top 25 most downloaded apps. “If users have one of these apps, they should update the affected app which will fix the issue on the user’s device,” the post stated. “If the app is available on [the] App Store, it has been updated, if it isn’t available it should be updated very soon.”
+
+Ghost of Xcode
+The infections were the result of legitimate developers writing apps using a counterfeit copy of Xcode, Apple’s iOS and OS X app development tool. The repackaged tool dubbed XcodeGhost surreptitiously inserted malicious code alongside normal app functions.
+
+From there, apps caused iPhones to report to a command-and-control server and provide a variety of device information, including the name of the infected app, the app-bundle identifier, network information, the device’s “identifierForVendor” details, and the device name, type, and unique identifier.
+
+XcodeGhost billed itself as faster to download in China, compared with Xcode available from Apple. For developers to have run the counterfeit version, they would have had to click through a warning delivered by Gatekeeper, the macOS security feature that requires apps to be digitally signed by a known developer.
+
+FURTHER READING
+Google Play app with 100 million downloads executed secret payloads
+The lack of follow-through is disappointing. Apple has long prioritized the security of the devices it sells. It has also made privacy a centerpiece of its products. Directly notifying those affected by this lapse would have been the right thing to do. We already knew that Google routinely doesn’t notify users when they download malicious Android apps or Chrome extensions. Now we know that Apple has done the same thing.
+Stopping Dr. Jekyll
+FURTHER READING
+Seemingly benign “Jekyll” app passes Apple review, then becomes “evil”
+The email wasn’t the only one that showed Apple brass hashing out security problems. A separate one sent to Apple Fellow Phil Schiller and others in 2013 forwarded a copy of the Ars article headlined “Seemingly benign ‘Jekyll’ app passes Apple review, then becomes ‘evil.’”
+The article discussed research from computer scientists who found a way to sneak malicious programs into the App Store without being detected by the mandatory review process that’s supposed to automatically flag such apps. Schiller and the other people receiving the email wanted to figure out how to shore up its protections in light of their discovery that the static analyzer Apple used wasn’t effective against the newly discovered method.
+
+
+Enlarge
+“This static analyzer looks at API names rather than true APIs being called, so there’s often the issue of false positives,” Apple Senior VP of Internet Software and Services Eddy Cue wrote. “The Static Analyzer enables us to catch direct accessing of Private APIs, but it completely misses apps using indirect methods of accessing these Private APIs. This is what the authors used in their Jekyll apps.”
+The email went on to discuss limitations of two other Apple defenses, one known as Privacy Proxy and the other Backdoor Switch.
+
+“We need some help in convincing other teams to implement this functionality for us,” Cue wrote. “Until then, it is more brute force, and somewhat ineffective.”
+
+Lawsuits involving large companies often provide never-before-seen portals into the inner workings of the way they and their executives work. Often, as the case is here, those views are at odds with the companies’ talking points. The trial resumes next week.

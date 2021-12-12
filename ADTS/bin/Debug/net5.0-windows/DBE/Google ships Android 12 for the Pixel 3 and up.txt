@@ -1,0 +1,24 @@
+Google ships Android 12 for the Pixel 3 and up
+The source code has been out all month, but updates are finally hitting devices.
+RON AMADEO - 10/20/2021, 8:36 PM
+
+Google ships Android 12 for the Pixel 3 and up
+Enlarge
+142
+WITH 65 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+Lost in the hubbub of yesterday's Pixel 6 launch is the fact that Android 12 shipped for older Pixel phones, too. Google took the odd step of releasing Android 12 to Google's AOSP (Android Open Source Project) repository on October 4, but it didn't ship any finished binaries for Pixel phones, which normally get day-one updates. During the Pixel 6 launch, Google's marketing department finally opened the floodgates with a blog post, a new website, a virtual AR statue, and builds for compatible devices.
+
+Officially, Android 12 is out for the Pixel 5, 5a, 4, 4a, 3, and 3a. Android 12 marks the first major update the Pixel 2 has missed out on, though it has been without security updates for a while. You have a few options to get Android 12. The easiest is to wait for the update to hit your device, which will happen sometime in the next month as it automatically rolls out to users. Another option is to head to developer.google.com and download the OTA update for your device. There are also full from-scratch system images that will wipe out your existing data. Applying either of those last two will require some light command line work and tools downloads, and Google has listed full instructions on its site.
+
+Google used to make real-life Android statues, but now it does AR ones. This one hints at the internal codename for Android 12: "Snow Cone."
+Enlarge / Google used to make real-life Android statues, but now it does AR ones. This one hints at the internal codename for Android 12: "Snow Cone."
+Google
+Android 12 is one of the biggest Android releases in recent memory, and it comes with a full user interface revamp called "Material You." Every part of the UI is now color-coordinated with your wallpaper, and Google is rapidly rolling out support for Material You themes to its biggest apps. There are a ton of changes to the notification panel, widgets, and system UI, and there are new privacy notifications for ongoing usage of the microphone or camera. Android 12 brings Android closer to the Linux kernel than ever, with fewer forks and less of a release delay between Android and Linux. There's an incremental file system for play-as-you-download games, new emojis, and plenty of other stuff.
+
+As always, the Android update treadmill will continue. We already have details of a new mid-cycle release of Android, which people have taken to calling "Android 12.1." So far, the leaked features seem to focus on tablets and foldables.
+
+Yesterday, a post from Google's official "androidbetaprogram" Reddit account laid out the future of the beta program for enrolled users, saying, "If you take no action and keep your Pixel device enrolled in the beta program, you will automatically get the next Android 12 beta updates starting in December."
+
+We'll mark our calendars.

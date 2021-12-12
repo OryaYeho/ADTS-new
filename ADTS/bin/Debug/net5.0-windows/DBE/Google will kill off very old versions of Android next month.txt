@@ -1,0 +1,32 @@
+Google will kill off very old versions of Android next month
+Google's tighter login security means Android 2.3.7 and lower will lose functionality.
+RON AMADEO - 8/3/2021, 10:09 PM
+
+Delicious gingerbread Android cookies. 
+Enlarge / Delicious gingerbread Android cookies.
+114
+WITH 70 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+Google has started emailing users of very old Android devices to tell them it's time to say goodbye.
+
+Starting September 27, devices running Android 2.3.7 and lower will no longer be able to log in to Google services, effectively killing a big portion of the on-rails Android experience. As Google puts it in an official community post, "If you sign in to your device after September 27, you may get username or password errors when you try to use Google products and services like Gmail, YouTube, and Maps."
+
+Android is one of the most cloud-based operating systems ever. Especially in older versions, many included apps and services were tied to your Google login, and if that stops working, a large chunk of your phone is bricked. While Android can update many core components without shipping a full system update today, Android 2.3.7 Gingerbread, released around 10 years ago, was not so modular.
+
+FURTHER READING
+Android 2.3 Gingerbread—Four years later, the OS just won’t die
+The individual Google apps started to be updatable through the Android Market/Play Store, but signing in to Google was still a system-level service and is frozen in time. Any Google services wanting to allow sign-ins from those versions would have to conform to 2011-era security standards, which means turning off two-factor authentication (2FA) and enabling a special "allow less-secure access" setting in your Google account. Really, these old Android versions have to die eventually because they're just too insecure.
+Google shows active user base breakdowns for Android versions in Android Studio, and Gingerbread has such a low device count that it doesn't even make the list. It's less than 0.2 percent of active devices, behind 14 other versions of Android. Users of these old devices could still sideload a third-party app store and find replacements for all the Google apps, but if you're a technical user and can't get a new device, there's a good chance you could load a whole new operating system with an aftermarket Android ROM.
+
+The current Android user base. Android 2.3 Gingerbread doesn't even make the list. 
+Enlarge / The current Android user base. Android 2.3 Gingerbread doesn't even make the list.
+Google
+After September 27, the oldest version of Android you'll be able to sign in to is Android 3.0 Honeycomb, which is only for tablets. This OS still isn't modular, but Google realized that login security updates would start to be an issue in the future, and Honeycomb added a "sign-in via browser" option to the initial setup. The hard-coded Android login can still be broken, but "sign-in via browser" will kick you out to a webpage—which can be updated with newer technology—and can then forward that login to the OS. It's still not enough to save Honeycomb from the "less-secure app" designation and doesn't work well with 2FA, but it's enough to keep the OS trucking for now.
+
+The login procedure became updatable in Android 5.0 Lollipop, which checks for initial setup updates before you even log in.
+
+FURTHER READING
+The (updated) history of Android
+These devices have been obsolete for a while, so it's not a big deal for day-to-day usage, but Google's server shutdowns are a nightmare for preservationists. Today, anyone can fire up an old Apple II or install Windows 1.0 on an old computer and see the full experience, but once Google cuts off login support, old versions of Android are dead. If you can't log in to Google, say goodbye to the Android Market, Gmail, Google Maps, and Google Talk. The base OS will still work, but you won't be able to do anything people actually did on these phones. You'll never be able to see these apps work on the phones again, barring some kind of crazy login emulation system.
+This isn't the first time Google has killed off older versions of Android because of higher login security. The Android 1.0-era apps have been broken for years. Here at Ars, we saw all this coming and documented every early version of Android in this giant article. The apps might not work anymore, but we'll always have the screenshots.

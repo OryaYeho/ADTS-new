@@ -1,0 +1,45 @@
+5 things you didn't know about the Android Market, Google's original app store
+From missing features to the reason for the Android Market name, here are some interesting facts about Google's app store.
+By Hadlee Simons
+Hadlee Simons
+Editor
+Hadlee Simons
+Born and raised in Cape Town, South Africa, Hadlee is part of the news team at Android Authority, joining the website in 2018. He has over a decade of experience working in the tech journalism space. When he's not working, he's gaming, watching motorsport, or running. He'll get back on the jiu-jitsu mat when this pandemic is over.
+•October 22, 2021
+
+https://www.androidauthority.com/android-market-3044541/
+
+The Google Play Store has been around for over a decade now, but it wasn’t always called the Play Store. It originally launched on this day in 2008 as the Android Market, roughly coinciding with the T-Mobile G1 Android phone.
+
+This original app store launched in a very different state to the current Play Store. Here are a few things you might not know about the Android Market on the anniversary of its launch.
+
+1. It only had free apps at first
+One of the more notable things about the Android Market was that it initially launched with only free apps. That’s right, developers couldn’t initially offer paid apps or even in-app purchases when the storefront launched in October 2008. Developers still had to pay a one-time $25 registration fee to publish their apps on the store though.
+
+Paid apps would eventually land on the Android Market in Q1 2009, a few months after the storefront went live. In-app purchases followed in early 2011.
+
+2. The number of apps was way lower than expected at launch
+Google originally announced that the Android Market would have over 50 apps available at launch. That’s not a high number by any measure, but it turns out that the actual number of apps available to download was even lower than this claim.
+
+The number of apps at launch was far lower than initially promised.
+According to PC World at the time, an “ill-timed software change” meant that only 13 apps were available to download at launch. Of course, Google’s store has way more apps these days, numbering in the millions. So things have turned out well for the storefront since then.
+
+3. Google didn’t take a cut of sales (initially)
+When paid apps landed on the Android Market in 2009, developers were allowed to keep 70% of the revenue from each app purchased. This sounds similar to the current-day situation, but there was a fundamental difference.
+
+Google claimed that it wouldn’t take a percentage of sales from each app sold at first. Instead, the search colossus said that the remaining 30% went to “billing settlement fees” and carriers.
+
+“We believe this revenue model creates a fair and positive experience for users, developers, and carriers,” the company said at the time.
+
+4. Google had a reason for not using ‘store’
+Android Market’s name seems rather weird now that we’ve got numerous app stores instead, such as the Play Store, Amazon AppStore, Apple’s App Store, and more. But back in 2008, Google said it deliberately avoided the word “store.”
+
+“We chose the term ‘market’ rather than ‘store’ because we feel that developers should have an open and unobstructed environment to make their content available,” the company said in August 2008.
+
+What does that say about the decision to choose the Play Store name several years later then? Who knows. Nevertheless, it’s also worth noting that Apple went to court against Amazon a few years later over the latter’s AppStore branding.
+
+5. The store initially didn’t have screenshots
+Today’s Play Store has a variety of screenshots and videos to help you make up your mind about downloading items. This seems like a no-brainer, as text alone isn’t really enough to figure out if a game or app is worth grabbing.
+
+App listings were once just text.
+Well, the Android Market actually lacked screenshot support within app listings when it first launched. This omission was particularly perplexing as Apple’s App Store already mandated screenshots for app listings at the time. Thank goodness Google would follow suit in September 2009.

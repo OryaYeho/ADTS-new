@@ -1,0 +1,31 @@
+Google is killing Android Auto for phones (if you even know what that is)
+This app had an Android Auto-like interface, but for people without compatible cars.
+RON AMADEO - 8/20/2021, 7:46 PM
+
+Google is killing Android Auto. No, not that Android Auto.
+
+Google is shutting down "Android Auto for phone screens," which was an Android Auto offshoot for people who didn't have cars compatible with the service. 9to5Google confirmed the cancellation with Google, and XDA Developers spotted a shutdown message in the app pushing users to a newer Google car computing solution for phone screens: "Google Assistant driving mode." As usual, we have many similarly named Google projects to keep track of, so don't get confused!
+
+Google kills product
+Google is killing Android Auto for phones (if you even know what that is)
+Google kills its augmented reality “Measure” app
+Google is killing “Google Play Movies & TV” on smart TVs
+Google is killing the Google Shopping app
+Google’s VR dreams are dead: Google Cardboard is no longer for sale
+View more storiesThe thing most people think about when they hear "Android Auto" is the projected car interface (a competitor to Apple's CarPlay), which loads a custom Google UI onto a vehicle's infotainment screen. You just need an Android phone and a compatible car; plug the two together, and the interface starts up. (I like to think of this system as being similar to a desktop PC. The phone is the PC tower and does software and computing, and the car is the monitor.) Android Auto is not going anywhere.
+"Android Auto for phone screens" was a solution for people who didn't have compatible vehicles. Instead of sending the Android Auto UI to your car, you could simply display a tweaked version of the UI on your phone. I'm not sure this was ever a great experience. The main selling point of Android Auto (for cars) is that it uses the bigger screen in your car. Take that away, and you're just loading a bigger, more limited UI on your phone, which still has to be precariously mounted on the dashboard via a phone clamp. It was easier to simply launch the apps you needed directly or interact with the phone through voice. There was really no incentive to use Android Auto for phone screens.
+
+Technically, there are (or were) four car-computing solutions from Google:
+
+Android Auto, the projected car interface and CarPlay competitor. You plug a phone into a car to get a phone-powered UI on the car display. Again, not shutting down.
+Android Auto for phones, which had a similar interface but displayed on a phone only, for people without compatible cars. This one is dying.
+Android Automotive, which is an Android infotainment OS. Manufacturers work with Google to load Android directly onto the car hardware. The first such vehicle to feature the service was the Polestar 2, which we reviewed here.
+Google Assistant driving mode, which, like Auto for phones, is another phone-based custom driving interface for people without specially outfitted cars.
+With the shutdown of Android Auto for phone screens, Google is pushing users to that fourth option, Google Assistant driving mode. Assistant driving mode was announced at Google I/O 2019 and was launched in October 2020 (yes, that's more than a year after it was announced). There's not a huge functional difference between Assistant driving mode and Android Auto for phone screens. They're basically the same concept but from likely two different teams at Google.
+
+FURTHER READING
+Google’s product strategy: Make two of everything
+Just like with Android Auto for phones, Driving mode is mostly just a "bigger buttons" interface. You'll get a bigger bar at the bottom of the screen with quick access to the microphone, maps, and a car app drawer. Tap the app drawer and you'll see media apps only, along with buttons for "calls" and "Messages," which just display a bigger-than-normal contact list, and there's a suggested UI for "media." Driving mode's most useful feature, if you enable it, is that it will read notifications to you while you're driving.
+Driving mode is surprisingly hard to launch or discover. It's not an app, so you can't download it. It's part of the Google Assistant, so it has to just show up on your phone. To enable it, you have to head to the Google Maps settings, then hit "navigation settings," then "Google Assistant settings." From there, one of two things will happen: your phone will either launch a massive list of the full Google Assistant settings, which means you don't have access to driving mode yet (some of my phones still don't have access to it), or it will open a "driving mode" screen where you can enable the feature. Keep in mind, you still haven't launched driving mode. Launching driving mode will automatically happen if you're in Google Maps and start navigating. You also must have the phone in portrait orientation.
+
+I assume the general public will eventually start seeing pop-ups to enable Assistant driving mode rather than having to proactively dig into the settings. This would mean if users just hit that "OK" button, the feature would start automatically launching every time they use Google Maps. That would at least solve Android Auto for phone screen's problem of people always forgetting to open it.

@@ -1,0 +1,22 @@
+Apple’s new AirPods Max over-ear headphones cost $549
+The headphones' controls take design cues from the Apple Watch.
+SAMUEL AXON - 12/8/2020, 5:30 PM
+
+This morning, Apple made a surprise announcement: it has started taking orders today for its long-rumored over-ear headphones bearing the AirPods brand. Called AirPods Max, they take design cues from existing Apple products and use several internal sensors and microphones to deliver "computational audio" features.
+
+FURTHER READING
+Apple announces AirPods Pro
+Priced at $549, AirPods Max are fully wireless headphones, and they use Bluetooth aided by Apple's custom tech to connect to audio sources like an iPhone or a computer. They come with a "Smart Case" that protects the headphones for storage and puts the headphones in a low-power sleep mode. Additionally, the case has a Lightning port, allowing users to charge the headphones with an included Lightning to USB-C cable.
+The above-mentioned sensors include an optical sensor, a position sensor, a case-detect sensor, and an accelerometer in each ear cup, and a gyroscope in just the left ear cup. There are also nine microphones. One is devoted exclusively to voice pickup, while the other eight are used for active noise cancellation; two of the mics perform double duty.
+
+In addition to the active noise cancellation that is standard in many headphones at or below this price point, computational audio features also include transparency mode (as seen in AirPods Pro previously), spatial audio, and adaptive EQ. The built-in sensors can also be used to detect when and how the headphones are being worn, driving some convenience features like automatically pausing music playback when you lift one of the ear cups.
+
+As for audio quality, we'll have to wait to see reviews to see where it lands, but Apple is of course effusive in its own press release explaining why it believes these headphones should offer top-notch audio:
+
+AirPods Max feature a 40-mm Apple-designed dynamic driver that provides rich, deep bass, accurate mid-ranges, and crisp, clean high-frequency extension so every note can be heard. A unique dual neodymium ring magnet motor allows AirPods Max to maintain total harmonic distortion of less than 1 percent across the entire audible range, even at maximum volume. Equipped with an Apple-designed H1 chip in each ear cup, a custom acoustic design, and advanced software, AirPods Max use computational audio to deliver the highest quality listening experience possible. Utilizing each of the chips’ 10 audio cores — capable of 9 billion operations per second — computational audio powers a breakthrough listening experience that includes Adaptive EQ, Active Noise Cancellation, Transparency mode, and spatial audio.
+
+Apple says AirPods Max will get up to 20 hours of battery life with active noise cancellation and spatial audio enabled and that five minutes of charge time can deliver 1.5 hours of playback.
+
+AirPods Max are controlled using a single button and a digital crown knob located at the top of one of the ear cups—an interface that draws inspiration from the Apple Watch, minus the touchscreen. The crown can be used to adjust volume, skip forward or backward, answer incoming calls, or invoke Siri.
+
+The headphones come in five colors—space gray, silver, green, sky blue, and pink—and can optionally be engraved at the time the order is placed. Apple is taking orders for AirPods Max in its online store starting today, and the headphones are expected to reach their first buyers on December 15.

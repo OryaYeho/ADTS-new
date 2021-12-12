@@ -1,0 +1,21 @@
+Google's document for device manufacturers lists a launch day and support timelines.
+RON AMADEO - 9/13/2021, 6:37 PM
+
+The Android 12 logo. 
+Enlarge / The Android 12 logo.
+53
+WITH 33 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+Android 10 was released on September 3, 2019, and Android 11 came out on September 8, 2020. So where is this year's Android 12 release?
+
+Instead of the final Android 12 release this month, Google pushed out Android 12 Beta 5 and said the final release was "weeks" away. A new report from XDA Developers' Mishaal Rahman claims to narrow things down a bit, saying that Monday, October 4, is the magic date.
+
+XDA says it has an internal Google document detailing the "tentative" release date for Android 12. The document actually only lists when the Android Open Source Project (AOSP) source code will be released, but the developer source code release and the consumer Pixel release are usually on the same day.
+
+
+The document looks like it's meant for third-party device manufacturers interested in licensing Google's Android apps and lists a ton of dates for the OS's support timeline. Of course, the core of Android is open source, and anyone can do whatever they want with the source code, but if you want Google's approval and the chance to license apps like the Play Store and Gmail, you'll need to follow the rules. In order to push OEMs to ship newer versions of Android on new devices, Google just stops approving GMS licenses (Google Mobile Services—aka, all the Google apps) for new devices at around the two-year mark. The document also lists when Google will stop supporting the Android 12 codebase and "ACK," or the "Android Common Kernel" (the Linux kernel with Android patches), with security patches, which is 3.5 years after release. (Keep in mind that well-supported devices will just move to a newer Android version after the first year.)
+
+The later release is understandable, since Google has a lot to take care of this year. Android 12 is one of the biggest Android releases ever, coming with a whole new "Material You" UI for Pixel phones and including a wild automatic color-theming system. Devices will finally start shipping Android's "GKI," or "Generic Kernel Image," which will help unify the Android Linux kernel across different devices and might even allow some devices to ship kernel updates through the Play Store. There's an incremental file system for Play-as-you-download games, a new privacy dashboard, performance optimizations, and a million other changes.
+
+Some of these new features won't be fully exposed to users until the launch of the Pixel 6 (whenever that is), but the first big chunk, Android 12, is just a few weeks away.

@@ -1,0 +1,24 @@
+Google is now writing low-level Android code in Rust
+Google's promotion of Rust over C and C++ should lead to fewer memory security bugs.
+RON AMADEO - 4/7/2021, 8:13 PM
+
+A heart separates an Android logo from a Rust logo.
+Enlarge
+Ron Amadeo/Google/Rust
+181
+WITH 78 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+Just last month, we saw the first baby steps toward the adoption of the memory-managed Rust programming language into the Linux kernel. Google has apparently been thinking along the same lines, and in a lengthy blog post Tuesday, the company announced that the Android Open Source Project now supports Rust for low-level OS components.
+
+FURTHER READING
+Linus Torvalds weighs in on Rust language in the Linux kernel
+The Android team does a ton of work pushing Kotlin and Java for app developers, but those languages rely on the Android Runtime (ART) in order to function. You can't write anything lower-level than ART in Java, since there would be no runtime environment to run it on. In the past, Google has typically used C or C++, but neither of these are memory-managed languages, and that opens Android up to memory leaks and buffer overflows.
+Google lays out the benefits of Rust over C/C++, saying, "Rust provides memory safety guarantees by using a combination of compile-time checks to enforce object lifetime/ownership and runtime checks to ensure that memory accesses are valid. This safety is achieved while providing equivalent performance to C and C++." In line with similar stats that Microsoft has published, Google's blog post says that "memory safety bugs continue to be a top contributor of stability issues, and consistently represent ~70% of Android’s high severity security vulnerabilities."
+
+Google's (oddly blurry?) chart of memory bugs in Android. The old code has had most of the bugs fixed already.
+Enlarge / Google's (oddly blurry?) chart of memory bugs in Android. The old code has had most of the bugs fixed already.
+Google
+Google says rewriting the "tens of millions of lines" of existing C and C++ Android code in Rust is "simply not feasible," and rewriting old Android wouldn't matter much since old code has had most of the bugs beaten out of it by now. As the Android source code is an open source project with billions of users, a lot of eyeballs are on it. Google says that "most of our memory bugs occur in new or recently modified code, with about 50% being less than a year old." Rust will be used for new components, when necessary, which should help reduce any new memory bugs Google could introduce.
+
+Google closes the blog post saying, "For the past 18 months we have been adding Rust support to the Android Open Source Project, and we have a few early adopter projects that we will be sharing in the coming months. Scaling this to more of the OS is a multi-year project. Stay tuned, we will be posting more updates on this blog."

@@ -1,0 +1,45 @@
+Hot gas-giant planet appears to have iron rain
+Amount of iron in the atmosphere is the difference between night and day.
+JOHN TIMMER - 3/11/2020, 9:23 PM
+
+Image of red-tinged clouds with shiny droplets falling in front of them.
+Enlarge / Artist's impression of what the iron rain might look like.
+ESO/M. Kornmesser
+90
+WITH 59 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+The first exoplanets discovered tended to be gas giants orbiting close to their stars. That's because these are easy to find. Their large size and proximity to the star increase the signal caused by either their gravitational influence on the star or through the amount of starlight obscured by the planet. Over time, however, our ability to image exoplanets has given us a more complete picture of the full catalog of planets outside our Solar System.
+
+As interest in exoplanets has shifted to their atmospheres, however, attention has shifted back to hot gas giants for similar reasons: their atmospheres are large, and therefore the signals they produce are correspondingly large. Now, researchers are reporting details of the atmosphere of a very hot exoplanet with a feature that sounds like something out of science fiction: a rain of liquid iron falling through the night atmosphere.
+
+FURTHER READING
+Climate models go out of this world
+Imaging an atmosphere
+How do you figure out what's going on in an atmosphere of a planet that's light years from Earth? It requires a planet that orbits in a way that it passes between Earth and its host star. During these transits, most of the light from the star still comes directly to Earth. But a tiny fraction passes through the planet's atmosphere on its way, interacting with the atoms and molecules that reside there. These can leave a signature on the light, with different atoms and molecules absorbing at specific wavelengths.
+
+But again, only a tiny fraction of the star's total light will pass through the atmosphere, making this signature difficult to pick out from the noise. A gas giant, which is both larger and has a large atmosphere, increases the signature a bit. Having the gas giant closer to the star increases it further. And being able to image transits multiple times helps pile up the data as well. Thus, a lot of the work on atmospheres so far has been done on a class of planets that have been termed "hot Jupiters"—large planets that have short orbital "years" because of their proximity to the star.
+
+Which brings us to WASP-76b, which has a mass estimated to be similar to Jupiter's. But it has a radius nearly twice as large, presumably because it's so hot, with an estimated surface temperature of 1,890°C. That heat comes from its proximity to its host star; it completes an orbit in only 1.8 days. Phrased differently, the distance between WASP-76b and its host star is only about 3 percent that of the Earth-Sun distance. So, it's a fantastic candidate for atmospheric imaging.
+
+And a large collaboration of researchers has done just that. The researchers used a fantastic instrument with what is perhaps the worst bacronym I've ever seen: Echelle Spectrograph for Rocky Exoplanets and Stable Spectroscopic Observations, or ESPRESSO. ESPRESSO can combine light from up to four eight-meter telescopes and was used to image two different orbits in order to get a detailed picture of WASP-76b's atmosphere.
+
+Some like it hot
+The researchers focus on the absorption of light by iron atoms, which will be in the vapor phase at the temperatures found on WASP-76b. On its own, this wouldn't tell us much other than the fact that iron is present. But the researchers squeaked quite a bit more out of it.
+
+To begin with, the planet should be tidally locked to the star, which would mean that it's rotating slowly. This imparts a red- or blue-shift to the location of iron's absorption line, depending on which side of the planet we're looking at. Fortunately, by tracking the start or end of the transit, when only one side of the planet is obscuring the star, one of the two shifts should dominate. At that point, we can figure out which way the planet is rotating. In the case of WASP-76b, the "morning" side of the planet, where new atmosphere is rotating in to face the star, is the one that is the leading edge of the planet during the transit.
+
+Since we know the radius of the planet from how much light it blocks during transits, we can figure out how fast it rotates in order to stay tidally locked. And any deviations from that would be indicative of winds creating additional red- or blue-shifts in the light.
+
+To sort this all out, the researchers calculated the rotation and then shifted all the observations to treat the planet as stationary.
+
+What they found is that iron was present in relatively low levels on the leading edge of the WASP-76b, where the planet's rotation would produce a red shift. Higher levels of the material were present on the trailing edge, after the atmosphere had been exposed to the star's light for all of its "day." And on this side, the signal of iron was much stronger, suggesting there was much more of it around. And the blue-shift of the iron here is stronger than you'd expect from planetary rotation alone, indicating that there are strong winds on this side.
+
+Putting it together
+The research team makes sense of these observations in a relatively easy-to-understand model. On the day side, the heat of the star vaporizes more iron as the atmosphere spends more time exposed to it. This means that the peak of iron concentration occurs slightly to the night-ward side of the point of the planet that's closest to the star. Because this is the hottest part of the planet, the heat-driven pressure starts winds that carry material to the cooler, night side of the planet.
+
+On the night side, as the atmosphere cools, the iron starts to condense. As the vapor condenses into droplets, it produces the low level of iron vapor detected on the leading edge of the planet, where the night-side atmosphere rotates in to face the star.
+
+This, of course, leads to the headline-grabbing conclusion—one the researchers themselves acknowledge by writing, "it could literally rain iron on the nightside of WASP-76b." This wouldn't be rain as we understand it on Earth (and not just because it'd be much heavier and hotter). Gas giants don't have an obvious "surface" for rain to reach, and the droplets remain high enough in the atmosphere to be re-vaporized as that part of the atmosphere rotates back to face the star.
+
+Beyond the headlines, though, the work represents progress in our understanding of exoplanet dynamics. A few years ago, all we could do is determine whether a planet is hot enough to have metal vapor in its atmosphere. Now, we can start inferring the dynamics of this metal vapor over the course of a planet's rotation. Ideally, this will serve as a model for understanding planets that are smaller and farther from their host stars.

@@ -1,0 +1,67 @@
+Apple expands data encryption under iOS 8, making handover to cops moot
+"Apple cannot bypass your passcode and therefore cannot access this data."
+CYRUS FARIVAR - 9/18/2014, 7:57 AM
+
+Tim Cook unveils iOS 8 at WWDC 2014.
+Tim Cook unveils iOS 8 at WWDC 2014.
+Megan Geuss
+335
+WITH 142 POSTERS PARTICIPATING, INCLUDING STORY AUTHOR
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+FURTHER READING
+iOS 8, thoroughly reviewed
+Apple has updated its privacy policy as part of the rollout of iOS 8, announcing that devices with the latest version of the operating system installed can no longer be accessed by the company itself.
+Previously, as we reported in May 2014, if law enforcement came to Apple with a seized device and a valid warrant, it was able to access a substantial portion of the data already on an iPad or iPhone. But under the latest version of iOS, even that will be impossible.
+
+"On devices running iOS 8, your personal data such as photos, messages (including attachments), email, contacts, call history, iTunes content, notes, and reminders is placed under the protection of your passcode," the company wrote on its website Wednesday evening. "Unlike our competitors, Apple cannot bypass your passcode and therefore cannot access this data. So it's not technically feasible for us to respond to government warrants for the extraction of this data from devices in their possession running iOS 8."
+
+Apple did not immediately respond to requests for further comment.
+
+In an open letter also published Wednesday, Apple CEO Tim Cook took a direct swipe at Google, its primary mobile competitor.
+
+"Our business model is very straightforward: We sell great products. We don’t build a profile based on your email content or web browsing habits to sell to advertisers," he wrote. "We don’t ‘monetize’ the information you store on your iPhone or in iCloud. And we don’t read your email or your messages to get information to market to you. Our software and services are designed to make our devices better. Plain and simple."
+
+Data Protection FTW!
+FURTHER READING
+Apple’s two-factor authentication now protects iCloud backups
+The specific technical changes seem to be outlined in a new 43-page document entitled "iOS Security Guide September 2014," the company’s perfunctory list of changes for each new version of iOS. The previous version of this document, dated February 2014, referred to the company’s hardware-based proprietary file and keychain protection mechanism called Data Protection, which uses 256-bit AES key and then encrypts every new file created.
+Previously, Apple only mentioned one specific company-made app—Mail—that was protected using this system, while noting that "third-party apps installed on iOS 7 or later receive this protection automatically."
+
+Now, however, that section of the September 2014 document specifically refers to Messages, Mail, Calendar, Contacts, and Photos, which suggests that Apple has significantly expanded what data on the phone is encrypted.
+
+Much of the subsequent language in the two documents is nearly identical in both versions:
+
+By setting up a device passcode, the user automatically enables Data Protection. iOS supports four-digit and arbitrary-length alphanumeric passcodes. In addition to unlocking the device, a passcode provides entropy for certain encryption keys. This means an attacker in possession of a device can’t get access to data in specific protection classes without the passcode.
+
+The passcode is entangled with the device’s UID, so brute-force attempts must be performed on the device under attack. A large iteration count is used to make each attempt slower. The iteration count is calibrated so that one attempt takes approximately 80 milliseconds. This means it would take more than 51⁄2 years to try all combinations of a six-character alphanumeric passcode with lowercase letters and numbers.
+
+There are a few other privacy-minded changes as well.
+
+The September 2014 document also notes that iOS 8 includes an "Always-on VPN" feature, which "eliminates the need for users to turn on VPN to enable protection when connecting to Wi-Fi networks."
+
+It also mentions that when an iOS 8 device is not associated with a Wi-Fi network, and the processor is asleep, the device uses a randomized Media Access Control address.
+
+"Because a device’s MAC address now changes when it’s not connected to a network, it can’t be used to persistently track a device by passive observers of Wi-Fi traffic," the document also states.
+
+Finally, Apple also highlighted a new secure addition in Mail.
+
+"Mail leverages certificates for authenticated and encrypted Mail by supporting S/MIME, which, as of iOS 8, permits per-message S/MIME, so S/MIME users can choose to always sign and encrypt by default, or selectively control how individual messages are protected," Apple wrote.
+
+"Long overdue"
+Privacy advocates immediately lauded the move.
+
+Christopher Soghoian, a technologist at the American Civil Liberties Union, summed it up this way:
+
+Apple's old policy for extracting user data from iPhones for law enforcement: Come back with a warrant. Their new policy: Get lost.
+
+— Christopher Soghoian (@csoghoian) September 18, 2014
+
+Nicole Ozer, an attorney with ACLU of Northern California, concurred. "Technology has advanced exponentially in recent years, and privacy upgrades have been long overdue," she told Ars. "Our lives are on our smartphones, and Apple is right to realize that users do not want to pay twice for products—with their money and with their privacy."
+
+Ben Adida, a well-known cryptographer who works for Square, trumpeted the move.
+
+
+Catherine Crump, a law professor at the University of California, Berkeley, also celebrated Apple’s new stance.
+
+"It's heartening to see a major American company conclude that it's a business advantage to protect its users' privacy and security," she told Ars. "Two years ago that would have been unheard of, and it suggests that there is real momentum building behind the idea that the government's grabs of privately held data have gone too far."

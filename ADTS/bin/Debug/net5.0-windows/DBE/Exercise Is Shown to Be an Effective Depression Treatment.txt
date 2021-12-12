@@ -1,0 +1,30 @@
+Exercise Is Shown to Be an Effective Depression Treatment
+New study shows that increased physical activity restores neuroplasticity.
+Posted October 20, 2021 |  Reviewed by Davia Sills
+
+Share on FacebookShare
+Share on TwitterTweet
+Share via EmailEmail
+KEY POINTS
+A three-week exercise program significantly lowered symptom scores of individuals hospitalized for depression.
+Researchers estimated the subjects' neuroplasticity using a novel non-invasive method called paired-association stimulation (PAS).
+Subjects whose depression symptoms improved the most also had the greatest improvement in PAS scores.
+ Athanasia Nomikou/Shutterstock
+Source: Athanasia Nomikou/Shutterstock
+The benefits of exercise for the treatment of depression have been demonstrated numerous times over the years. The mechanisms behind this effect, however, have remained mysterious. A new study published in Frontiers of Psychiatry sheds some fresh light on this mystery. It showed that exercise increased neuroplasticity in depressed subjects.
+
+Neuroplasticity can be thought of as the brain’s ability to remodel itself in response to environmental changes. It is a complex phenomenon, largely controlled by genes that code for a bevy of small protein molecules with names like “brain-derived neurotrophic factor” (BDNF). Sensory inputs trigger this remodeling. It consists of alterations in the connections between neurons, some connections becoming stronger and others weaker as new circuitry is laid down and communication pathways between brain areas change. Antidepressant medications are believed to help depression by enhancing neuroplasticity, and the new brain-stimulation treatments for depression, like repetitive transcranial stimulation (rTMS), appear to do the same by directly stimulating the cortex with tiny electrical impulses.
+
+A study on neuroplasticity and depression
+The study was carried out on 41 subjects who had been hospitalized for depression. After they had recovered enough from their symptoms to participate in the research, they were divided into two groups. For a total of three weeks, one group participated in exercise groups three days a week while the control group played (sedentary) games requiring them to use logic and deduction to solve puzzles, also three days a week. The participants remained on any medications they were taking.
+
+Before and after the three weeks of their respective interventions, each subject’s level of neuroplasticity was estimated using a model of “brain training” called paired-association stimulation (PAS) protocol. PAS consists of electrically stimulating the nerve at the base of the thumb while simultaneously using an rTMS device to deliver magnetic impulses to the area of the motor cortex that controls the thumb muscles, resulting in a brief flexing of the thumb muscles. This dual stimulation “trains” the underlying motor cortex in about 30 minutes. It makes it more sensitive to the magnetic impulses, which are able to cause the thumb movements at lower and lower intensities. The robustness of the response to the PAS “training” (“PASeffect”) is thought to be a measure of neuroplasticity.
+
+Before and after their programs, the subjects’ level of depression was assessed using the self-rated Beck Depression Inventory-II and the clinician-administered Hamilton Depression Rating Scale. In both groups, there was a direct correlation between the PASeffect and the degree of depression at baseline. Subjects with a higher depression score had a lower PASeffect, i.e., the brain showed lower neuroplasticity.
+
+article continues after advertisement
+At the end of the study, the group that exercised had significantly lower depression scores than the group that participated in sedentary activities. Also, their PASeffect scores were higher, showing that their neuroplasticity had improved. Again, there was a direct correlation between depression level and PASeffect. The subjects whose depression had improved the most showed the greatest improvement in neuroplasticity as measured by the PASeffect.
+
+PAS-induced plasticity is known to be higher in physically active healthy subjects compared to those with a sedentary lifestyle, and the authors suggest that exercise, which has been shown to increase metabolism and oxygenation, modulate neurotransmitters, and enhance the release of neurotropic proteins like BDNF in the brain are some of the mechanisms by which exercise enhances neuroplasticity. They suggest that exercise programs be incorporated into the treatment of depression.
+
+The conclusion: Exercise is not only good for your body, but it’s also good for your brain.

@@ -1,0 +1,36 @@
+Number of potentially habitable planets in our galaxy: Tens of billions
+A new statistical analysis allows astronomers to more rapidly assess planethood.
+ERIC BERGER - 5/11/2016, 4:43 AM
+
+An illustration of what some of the new exoplanets announced today may look like, along with their host stars.
+An illustration of what some of the new exoplanets announced today may look like, along with their host stars.
+NASA
+175
+WITH 76 POSTERS PARTICIPATING, INCLUDING STORY AUTHOR
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+It is one thing to observe the periodic dimming of a star’s light, as NASA’s Kepler Space Telescope has done for thousands of planet “candidates” since its launch in 2009. However, to confirm that such dimmings are in fact due to a planet passing in front of a star, as opposed to any number of false positives such as a binary star companion, requires intensive follow-up work with ground-based instruments, most often a measurement of radial velocity to determine the object’s mass.
+
+To ease this workload, planetary astronomers have devised a few different statistical techniques, but none has been fully automated until now. Princeton University researcher Timothy Morton has developed software that can, within a few minutes, asses the orbital period and other data gathered by Kepler to assign a statistical probability that planet “candidates” are, or are not, planets. When tested on previously confirmed exoplanets and false positives, the new technique worked almost flawlessly.
+
+Described in the Astrophysical Journal, this new method allowed scientists to rapidly assess Kepler’s planet candidate catalog from July, 2015, which identified 4,302 potential planets. Of these, the new technique found that 1,284 were planets at a confidence level of 99 percent or greater. An additional 1,327 are likely planets, but did not reach the 99 percent confidence threshold.
+
+The new tally of nearly 1,300 confirmed exoplanets more than doubles the existing 984 exoplanets found previously by Kepler and other observatories over the course of two decades. It also more than doubles the number of known Earth-size and super-Earth-size exoplanets. Finally, it brings the number of planets less than twice the size of Earth discovered in the habitable zones of their stars to 21. Those habitable zones are where it is possible for water to exist on the surface in liquid form.
+
+These additions to Kepler’s planetary tally bring the mission’s scientists closer to their goal of quantifying the number of stars in our galaxy that harbor Earth-sized worlds in the habitable zone around their parent stars. “These are the hardest planets to find,” said Natalie Batalha, co-author of the paper and the Kepler mission scientist at NASA's Ames Research Center, during a teleconference Tuesday.
+
+However, there is enough data to begin to make some educated guesses. The Kepler mission has observed about 150,000 stars. During the initial four years of its flight, the spacecraft was tuned primarily to stars smaller and more faint than the Sun, mostly M-class stars. Batalha said Kepler has found that about 24 percent of these lower mass, reddish stars harbor potentially habitable, Earth-size (smaller than 1.6 times the radius of Earth) worlds. Based upon the number of M-class stars in the galaxy, that alone represents about 10 billion potentially habitable, Earth-like worlds.
+
+Since its original mission, Kepler has entered a new phase of data taking, known as its K2 mission, in which the spacecraft is observing more K- and G-class stars. These stars are as warm as—or nearly as warm as—the Sun. An initial analysis of this K2 data suggests about one-quarter of these larger stars may also have Earth-size worlds in their habitable zones. All told, these main sequence stars make up about 70 percent of the estimated 100 billion stars in the Milky Way. “So by my back of the envelope calculation there are tens of billions of potentially habitable planets in the galaxy,” Batalha said.
+
+Kepler will continue making observations for now, but scientists say they hope to finish cataloging its data by around October of 2017. The spacecraft has done superlative work, scientists say, but it is time to move to NASA’s next phase of exoplanet analysis to begin finding worlds closer to Earth, which would make follow-on observations easier.
+
+FURTHER READING
+NASA outlines ingenious plan to resurrect the Kepler planet hunter
+That process will begin as early as next year, with the launch of the Transiting Exoplanet Survey Satellite, which will observe about 200,000 stars in the vicinity of the Sun to find potentially habitable planets. This instrument will use the same technique as Kepler, looking for dimming light from those stars.
+
+By finding closer planets, the TESS spacecraft would identify targets for subsequent instruments, such as the James Webb Space Telescope and potentially larger ground-based telescopes coming online in the 2020s, such as the Giant Magellan Telescope. These instruments will have the ability to study starlight passing through the atmospheres of nearby exoplanets, yielding some information about their composition. Scientists will be looking for water, methane, carbon dioxide, and other gases that might indicate the presence of biological activity.
+
+Future missions such as the WFIRST telescope and successor instruments may begin to allow astronomers to actually image promising planets, first down to the size of Neptune, and eventually, all the way down to Earth-size worlds by shading the light of their parent stars. But these telescopes are likely one to two decades into the future.
+
+For now, astronomers will have to content themselves with nearly 1,300 new worlds and the prospect that our galaxy teems with planets that are probably very much like our own pale blue dot.

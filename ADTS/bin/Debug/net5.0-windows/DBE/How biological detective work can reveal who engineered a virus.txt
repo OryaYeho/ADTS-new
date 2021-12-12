@@ -1,0 +1,70 @@
+How biological detective work can reveal who engineered a virus
+Exciting new research should make it easier to hold rogue bioengineers accountable.
+
+By Kelsey Piper  Oct 24, 2021, 9:00am EDT
+Share this story
+Share this on Facebook (opens in new window)
+Share this on Twitter (opens in new window)
+SHARE
+All sharing options
+A workspace in a biologics lab.
+Bio labs leave their distinctive traces on DNA and RNA they engineer. Frederick Florin/AFP via Getty Images
+This story is part of a group of stories called
+Future Perfect
+Finding the best ways to do good.
+
+SARS-CoV-2, the virus that causes Covid-19, has made our future vulnerability to biological pathogens — and what we can learn to help prevent the next pandemic — a salient concern. We don’t have much evidence one way or the other whether Covid’s emergence into the world was the result of a lab accident or a natural jump from animal to human. And while the US intelligence community’s current best guess is that the virus “probably was not genetically engineered,” the theory has been the subject of much debate and has not been definitively ruled out.
+
+The many unknowns we confront underscore the need for a much bigger toolkit to deal with pathogenic threats than we currently have — which is why a recent paper about a new advance in tracing genetic editing is particularly exciting.
+
+Bioengineering often leaves traces — characteristic patterns in the RNA or DNA of an engineered organism that are a product of a plethora of design decisions that go into synthetic biology. That fact about bioengineered genomes raises an interesting question: What if those traces that gene editing leaves behind were more like fingerprints? That is, what if it’s possible not just to tell if something was engineered but precisely where it was engineered?
+
+That’s the idea behind genetic engineering attribution: the effort to develop tools that let us look at a genetically engineered sequence and determine which lab developed it. A big international contest among researchers earlier this year demonstrates that the technology is within our reach — though it’ll take lots of refining to move from impressive contest results to tools we can reliably use for bio detective work.
+
+The contest, the Genetic Engineering Attribution Challenge, was sponsored by some of the leading bioresearch labs in the world. The idea was to challenge teams to develop techniques in genetic engineering attribution. The most successful entrants in the competition could predict, using machine-learning algorithms, which lab produced a certain genetic sequence with more than 80 percent accuracy, according to a new preprint summing up the results of the contest.
+
+This may seem technical, but it could actually be fairly consequential in the effort to make the world safe from a type of threat we should all be more attuned to post-pandemic: bioengineered weapons and leaks of bioengineered viruses.
+
+One of the challenges of preventing bioweapon research and deployment is that perpetrators can remain hidden — it’s difficult to find the source of a killer virus and hold them accountable.
+
+But if it’s widely known that bioweapons can immediately and verifiably be traced right back to a bad actor, that could be a valuable deterrent.
+
+It’s also extremely important for biosafety more broadly. If an engineered virus is accidentally leaked, tools like these would allow us to identify where they leaked from and know what labs are doing genetic engineering work with inadequate safety procedures.
+
+The fingerprint of a virus
+Hundreds of design choices go into genetic engineering: “what genes you use, what enzymes you use to connect them together, what software you use to make those decisions for you,” computational immunologist Will Bradshaw, a co-author on the paper, told me.
+
+“The enzymes that people use to cut up the DNA cut in different patterns and have different error profiles,” Bradshaw says. “You can do that in the same way that you can recognize handwriting.”
+
+Because different researchers with different training and different equipment have their own distinctive “tells,” it’s possible to look at a genetically engineered organism and guess who made it — at least if you’re using machine-learning algorithms.
+
+The algorithms that are trained to do this work are fed data on more than 60,000 genetic sequences different labs produced. The idea is that, when fed an unfamiliar sequence, the algorithms are able to predict which of the labs they’ve encountered (if any) likely produced it.
+
+A year ago, researchers at altLabs, the Johns Hopkins Center for Health Security, and other top bioresearch programs collaborated on the challenge, organizing a competition to find the best approaches to this biological forensics problem. The contest attracted intense interest from academics, industry professionals, and citizen scientists — one member of a winning team was a kindergarten teacher. Nearly 300 teams from all over the world submitted at least one machine-learning system for identifying the lab of origin of different sequences.
+
+In that preprint paper (which is still undergoing peer review), the challenge’s organizers summarize the results: The competitors collectively took a big step forward on this problem. “Winning teams achieved dramatically better results than any previous attempt at genetic engineering attribution, with the top-scoring team and all-winners ensemble both beating the previous state-of-the-art by over 10 percentage points,” the paper notes.
+
+The big picture is that researchers, aided by machine-learning systems, are getting really good at finding the lab that built a given plasmid, or a specific DNA strand used in gene manipulation.
+
+The top-performing teams had 95 percent accuracy at naming a plasmid’s creator by one metric called “top 10 accuracy” — meaning if the algorithm identifies 10 candidate labs, the true lab is one of them. They had 82 percent top 1 accuracy — that is, 82 percent of the time, the lab they identified as the likely designer of that bioengineered plasmid was, in fact, the lab that designed it.
+
+Top 1 accuracy is showy, but for biological detective work, top 10 accuracy is nearly as good: If you can narrow down the search for culprits to a small number of labs, you can then use other approaches to identify the exact lab.
+
+There’s still a lot of work to do. The competition looked at only simple engineered plasmids; ideally, we’d have approaches that work for fully engineered viruses and bacteria. And the competition didn’t look at adversarial examples, where researchers deliberately try to conceal the fingerprints of their lab on their work.
+
+How genetic fingerprinting can help keep the world safer
+Knowing which lab produced a bioweapon can protect us in three ways, biosecurity researchers argued in Nature Communications last year.
+
+First, “knowledge of who was responsible can inform response efforts by shedding light on motives and capabilities, and so mitigate the event’s consequences.” That is, figuring out who built something will also give us clues about the goals they might have had and the risk we might be facing.
+
+Second, obviously, it allows the world to sanction and stop any lab or government that is producing bioweapons in violation of international law.
+
+And third, the article argues, hopefully, if these capabilities are widely known, they make the use of bioweapons much less appealing in the first place.
+
+But the techniques have more mundane uses as well.
+
+Bradshaw told me he envisions applications of the technology could be used to find accidental lab leaks, identify plagiarism in academic papers, and protect biological intellectual property — and those applications will validate and extend the tools for the really critical uses.
+
+The past year and a half should have us all thinking about how devastating pandemic disease can be — and about whether the precautions being taken by research labs and governments are really adequate to prevent the next pandemic.
+
+The answer, to my mind, is that we’re not doing enough, but more sophisticated biological forensics could certainly help. Genetic engineering attribution is still a new field. With more effort, it’ll likely be possible to one day make attribution possible on a much larger scale and to do it for viruses and bacteria. That could make for a much safer future.

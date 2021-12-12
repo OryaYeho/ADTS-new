@@ -1,0 +1,30 @@
+In 8 US states, Apple will begin storing driver’s licenses on the iPhone
+The new feature will first be supported by the TSA in participating states.
+SAMUEL AXON - 9/4/2021, 12:34 AM
+
+Apple is rolling out the ability to add driver's licenses and state IDs to the Wallet app on the iPhone and Apple Watch in select US states, the company announced this week.
+
+The first states to introduce this functionality will be Arizona and Georgia, but Connecticut, Iowa, Kentucky, Maryland, Oklahoma, and Utah will follow. However, neither the states nor Apple have said exactly when the rollouts will begin other than giving a general fall 2021 target.
+
+FURTHER READING
+Report: The iPhone 14 will be a major upgrade, and it will be made of titanium
+Wallet is an app that comes pre-installed on iPhones and Apple Watch wearables. The app stores credit cards, boarding passes, student IDs, and other items you might normally put in a physical wallet.
+Wallet sometimes uses wireless communication to transmit relevant information (for example, credit card information at a point of sale), or a user can hold up the phone to show information to someone. Often, a bar code or something similar is used to allow the user to authenticate at a location without handing over the phone—like with airline boarding passes.
+
+Much of Apple's newsroom post announcing the new driver's license or state ID feature focuses on one specific use case: airports. The post highlights quotes from the Transportation Security Agency supporting the move and a commitment from the TSA to accept digital IDs at airports in participating states. The idea is that users going through airport security could present both their boarding passes and state IDs in the app to avoid fumbling with their wallets while in line.
+
+After the announcement, many on Twitter and elsewhere remarked that they would not feel comfortable handing an unlocked phone to TSA or police officers, but at least as far as airport security is concerned, that's not how it works.
+
+Users store data related to their driver's licenses or state IDs on their phones, but they won't show the ID on their phone screen to authorities. Rather, the information will be delivered digitally, so users present their IDs "by simply tapping their iPhone or Apple Watch at the identity reader," according to Apple.
+
+The process for adding a driver's license or state ID to Wallet seems a little more involved than with some other supported document and ID types. Here's what Apple says users need to do:
+
+Similar to how customers add new credit cards and transit passes to Wallet today, they can simply tap the + button at the top of the screen in Wallet on their iPhone to begin adding their license or ID. If the user has an Apple Watch paired to their iPhone, they will be prompted to also add their ID or driver’s license to their Wallet app on their Apple Watch. The customer will then be asked to use their iPhone to scan their physical driver’s license or state ID card and take a selfie, which will be securely provided to the issuing state for verification. As an additional security step, users will also be prompted to complete a series of facial and head movements during the setup process. Once verified by the issuing state, the customer’s ID or driver’s license will be added to Wallet.
+
+And here are some details from Apple about how the TSA check-in process will work in participating states:
+
+Once added to Wallet, customers can present their driver’s license or state ID to the TSA by simply tapping their iPhone or Apple Watch at the identity reader. Upon tapping their iPhone or Apple Watch, customers will see a prompt on their device displaying the specific information being requested by the TSA. Only after authorizing with Face ID or Touch ID is the requested identity information released from their device, which ensures that just the required information is shared and only the person who added the driver’s license or state ID to the device can present it. Users do not need to unlock, show, or hand over their device to present their ID.
+
+After the announcement, Apple told blogger John Gruber that users will only be able to associate one fingerprint with the IDs on Touch ID devices to ensure that the IDs can be used only by the actual ID holder. (Many people store additional Touch ID fingerprints on their phones for family members or partners to use.)
+
+Apple has not yet shared the status of talks with other states to bring the feature to additional locations.

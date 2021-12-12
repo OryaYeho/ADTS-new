@@ -1,0 +1,40 @@
+Apple rolls major Safari redesign out to Macs ahead of Monterey release
+There are some big changes, but you can roll back many of them.
+SAMUEL AXON - 9/22/2021, 10:22 PM
+
+Safari's new look (and some light fixtures?)
+Enlarge / Safari's new look (and some light fixtures?)
+Apple
+129
+WITH 103 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+This week, Apple released Safari 15 for macOS Big Sur and Catalina. Among other things, the new update includes a major design overhaul—plus the ability to roll back to the old layout and look if you're not a fan.
+
+FURTHER READING
+Apple releases iOS 15 with Focus mode and more
+Apple released major software updates for all of its platforms except macOS on Monday. The updates were timed closely with the release of new iPhone, iPad, and Apple Watch models.
+But last week's product launch event didn't include Macs, which are expected to get some more focused attention by the end of the year, alongside an announcement about the release date of macOS Monterey.
+
+Nonetheless, Apple appears to have decided to push the Safari update separately to keep the experience consistent across platforms in the meantime. (It has done that with some prior releases when macOS came after iOS, too.)
+
+The Safari redesign has gone through several changes throughout the recent beta releases on all platforms (and especially on iOS and iPadOS). The most dramatic change on the iPhone was the relocation of the address and search bar from the top of the screen to the bottom, a tweak designed to make Safari easier to use on the phone one-handed.
+
+Initially, it was Apple's way or the highway with that change, but Apple added a way to roll back that change by the time iOS 15 went live to the public.
+
+On top of the address and search bar, iOS and macOS had another big change in common: a minimalist streamlining of the interface to make it use less screen space overall. That has also been dialed back a bit for release on both macOS and iOS.
+
+If you still don't like the dialed back iteration, you can revert to an earlier design in Safari's preferences pane. For example, you can place the address bar above your browser tabs as it was before. (By default, Safari now places these side-by-side.) You can also disable the behavior that re-colors the tab bar to match a web page's content.
+
+Design changes aside, there are some new features in Safari 15. Tab Groups "help you save and organize your tabs and easily access them across devices," Apple says in its release notes. Additionally, Safari can automatically switch sites from HTTP to HTTPS when possible.
+
+Here are Apple's full (but short) release notes for this week's Safari update:
+
+Safari 15 delivers faster performance, improved security, and the following new features:
+
+• Tab Groups help you save and organize your tabs and easily access them across devices
+• Redesigned tabs have a rounder and more defined appearance and take on the color of
+the webpage
+• Compact tab bar option shows more of your web page on screen
+• HTTPS upgrade automatically switches sites from HTTP to more secure HTTPS when
+available

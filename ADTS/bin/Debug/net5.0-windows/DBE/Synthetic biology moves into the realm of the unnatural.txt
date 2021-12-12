@@ -1,0 +1,45 @@
+Synthetic biology moves into the realm of the unnatural
+by Robert Sanders, University of California - Berkeley
+
+An artificial metalloenzyme based on the natural enzyme called P450 (gray structure). UC Berkeley chemists created a heme molecule (magenta) with an embedded iridium atom (red) that, in E. coli, was incorporated into P450 to execute a reaction unknown in the natural world. Credit: UC Berkeley image by Brandon Bloomer
+The field of synthetic biology has had great success engineering yeast and bacteria to make chemicals—biofuels, pharmaceuticals, fragrances, even the hoppy flavors of beer—cheaply and more sustainably, with only sugar as the energy source.
+
+Yet, the field has been limited by the fact that microbes, even with genes thrown in from plants or other animals, can only make molecules by using the chemical reactions of nature. Much of chemistry and the chemical industry is focused on making substances that are not found in nature with reactions invented in a laboratory.
+
+A collaboration between synthetic chemists and synthetic biologists at the University of California, Berkeley, and Lawrence Berkeley National Laboratory has now overcome that hurdle, engineering bacteria that can make a molecule that, until now, could only be synthesized in a laboratory.
+
+While the biosynthesis in the bacteria E. coli produced a substance of low value—and in small quantities, at that—the fact that the researchers could engineer a microbe to produce something unknown in nature opens the door to production of a broader range of chemicals from yeast and bacterial fermentation, the researchers said.
+
+"It's a completely new way of doing chemical synthesis. The idea of creating an organism that makes such an unnatural product, that combines laboratory synthesis with synthetic biology within a living organism—it is just a futuristic way to make organic molecules from two separate fields of science in a way nobody's done before," said John Hartwig, UC Berkeley professor of chemistry and one of four senior authors of the study.
+
+The findings were published online today (Oct. 14) in the journal Nature Chemistry.
+
+The achievement could greatly expand the applications of synthetic biology, which is a greener, more sustainable way to make chemicals for consumers and industry, said co-author Aindrila Mukhopadhyay, a Berkeley Lab senior scientist and vice president of the Biofuels and Bioproducts Division at the Joint BioEnergy Institute (JBEI) in Emeryville, California.
+
+"There is just so much need in our lives right now for sustainable materials, materials that won't impact the environment. This technology opens up possibilities for fuels with desirable properties that can be produced renewably, as well as new antibiotics, new nutraceuticals, new compounds that would be exceedingly challenging to make using only biology or only chemistry," she said. "I think that is the real power of this—it expands the range of molecules we can address. We really need disruptive new technologies, and this most definitely is one of them."
+
+Hybridizing metal catalysts with natural enzymes
+
+Hartwig, the Henry Rapoport Chair in Organic Chemistry at UC Berkeley and a senior faculty scientist at Berkeley Lab, embeds metal catalysts in natural enzymes to make so-called artificial metalloenzymes, which can synthesize chemicals that have been hard to make by other means in the laboratory. One reaction of these systems he and his lab have worked on for the past six years is incorporating a cyclopropane—a ring of three carbon atoms—into other molecules. Such cyclopropanated chemicals are becoming increasingly useful in medicines, such as a drug to cure hepatitis C infections.
+
+He and UC Berkeley graduate student Zhennan Liu created one metalloenzyme that is a hybrid of a natural enzyme, P450—widely used in the body, particularly in the liver, to oxidize compounds—and the metal iridium. P450 naturally incorporates a cofactor called heme—also at the core of the hemoglobin molecule that transports oxygen in the blood—that naturally contains a metal atom, iron.
+
+Switching out the iron for iridium, Hartwig's lab generated a metalloenzyme that, in test tubes, successfully adds cyclopropanes—by sticking a third carbon onto a carbon-carbon double bond—to other organic molecules. The iridium-based metalloenzyme does this with stereoselectivity—that is, it generates a cyclopropanated molecule, but not its mirror image, which would behave differently in the body.
+
+They then teamed up with Berkeley Lab postdoctoral fellow Jing Huang, a synthetic biologist in the labs of Mukhopadhyay and Jay Keasling, UC Berkeley professor of chemical and biomolecular engineering, senior faculty scientist at Berkeley Lab and CEO of JBEI, to see if they could incorporate the iridium-containing heme into P450 enzymes inside living E. coli cells and give the bacteria the ability to make cyclopropanated molecules completely within the cell.
+
+Working with UC Berkeley graduate student Brandon Bloomer, they found a way to transport the heme molecule containing the iridium into E. coli, where a majority of the iridium added to the medium in which the bacteria grow became incorporated into a P450 enzyme.
+
+The synthetic biologists then balanced the metabolism of the bacteria so that they could produce the final product—a cyclopropanated limonene—in a living bacterial culture.
+
+"The product is a relatively simple molecule, but this work demonstrates the potential to combine biosynthesis and chemical synthesis to make molecules that organisms have never made before, and nature's never made before," Hartwig said.
+
+Mukhopadhyay said that incorporating other metalloenzymes into bacteria could be a game changer in terms of microbial production to make pharmaceuticals, as well as sustainable fuels.
+
+"Today, many drugs are laboriously extracted from plants that are challenging to cultivate and negatively impact the environment. To be able to reliably make these compounds in a lab using biotechnology would really address a lot of these problems," she said.
+
+This applies to making "not just medicines, but precursors to polymers, renewable plastics, biofuels, building materials, the whole gamut of things that we use today, from detergents to lubricants to paints to pigments to fabric," she added. "Everything can be made biologically. But the challenge lies in developing sustainable renewable pathways to it. And so here, we've taken a pretty substantial step toward it, where we have been able to demonstrate an artificial chemistry within a cell, a living growing cultured cell, which is inherently then scalable."
+
+Hartwig agrees.
+
+"The bigger view is to be able to create organisms that will make unnatural products that combine nature's chemistry with laboratory chemistry," Hartwig said. "But the laboratory chemistry would now occur inside the cell. If we could do this in a general way, we could engineer organisms to make all sorts of drugs, agrochemicals and even commodity chemicals, like monomers for polymers, that would take advantage of the efficiency and selectivity of fermentation and biocatalysis."

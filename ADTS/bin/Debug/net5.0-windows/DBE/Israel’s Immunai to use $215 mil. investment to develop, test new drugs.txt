@@ -1,0 +1,25 @@
+Israel’s Immunai to use $215 mil. investment to develop, test new drugs
+Israeli-American biotech company Immunai is best known for its development of the world’s largest data atlas of clinically annotated single-cell immune data.
+By MAAYAN JAFFE-HOFFMAN   OCTOBER 27, 2021 19:43Email Twitter Facebook fb-messenger
+ Noam Solomon speaks at the Jerusalem Post's Global Investment Forum in June 2021. (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)
+Noam Solomon speaks at the Jerusalem Post's Global Investment Forum in June 2021.
+(photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)
+
+The Israeli-American biotech company Immunai announced a $215 million Series B funding round on Wednesday, which will be used to expand its “drug actuary” platform to evaluate the effectiveness of new and existing treatments. The company's valuation is estimated to now be $1.2 billion.
+“We have made great progress toward our core mission of understanding the immune system, which we believe is essential to finding the answers to human health and disease,” said Immunai co-founder and CEO Dr. Noam Solomon. “Unlocking the immune system will accelerate the evaluation and development of novel immune medicines. Our approach is to combine best-in-class single-cell genomic methods and artificial intelligence with a deep understanding of immunology.”
+ Noam Solomon (credit: Courtesy)
+Noam Solomon (credit: Courtesy)
+The newest round of funding, which was led by Koch Disruptive Technologies, brings Immunai’s total funding to date to $295m.
+Other funders include Talos VC, 8VC, Alexandria Venture Investments, Piedmont and ICON.
+The company, which was founded only two years ago, is best known for its development of the world’s largest data atlas of clinically annotated single-cell immune data. The database is known as AMICA, which stands for Annotated Multiomic Immune Cell Atlas, and is used to help provide insight into the underlying biology that drives disease.
+More than 30 hospitals are contributing data to AMICA. The database is larger than any similar database, Solomon said, but the company’s goal is to be 100 times larger.
+“We want to have as many immune profiles as possible plugged into AMICA,” he said.
+Immunai is able to leverage the database to find important therapeutic insights, identifying the cells and genes that control important immune functions.
+Then, by applying sophisticated machine learning and other computational methods, the company can measure what happens to the immune system when given different therapies and evaluate the function of these therapies to determine if they will be good targets for specific indications and specific individuals. It can also come up with candidates for novel therapeutics.
+“Our [drug actuary] platform is very useful in the ability to help with the development and evaluation of drug candidates together with our partners,” Solomon said, “and in choosing the right candidates to address in development.”
+He noted that Immunai already has some “meaningful partnerships” in this arena, but could not yet disclose the details.
+“We are working on partnerships that are at the core of immunity, cancer, autoimmunity and infectious disease – without mentioning names of partners,” Solomon said.
+Immunai has tripled in size in the last year and now has more than 120 employees working around the world in New York City, Tel Aviv, Zurich, Prague and San Francisco. It has also forged extensive partnerships with not only hospitals and research institutes, but also more than two dozen Fortune 100 pharmaceutical companies. Its board of directors and scientific advisory committee tout some of the most important names in biotech, including Robert Langer, the co-founder of Moderna.
+“The last two years have been hectic and confusing,” Solomon admitted, referring to the coronavirus crisis that has taken the lives of nearly five million people. “The pandemic shook everyone a little bit, and the world is different than it was two years ago.”
+But he said that he feels “we are living in exciting times,” as much more money is being invested in biotech research and companies as a result.
+“We are at the dawn of a new era and the formation of new companies focused on the interaction between biology and technology,” he said. “It is a special time, and Immunai is glad to be a leader in this area.”

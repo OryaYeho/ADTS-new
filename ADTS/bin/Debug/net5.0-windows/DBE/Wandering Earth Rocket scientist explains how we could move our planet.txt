@@ -1,0 +1,53 @@
+Wandering Earth: Rocket scientist explains how we could move our planet
+Film is sci-fi, but its premise may one day be true. Could we move Earth to a wider orbit?
+MATTEO CERIOTTI / THE CONVERSATION - 5/18/2019, 6:30 PM
+
+Wandering Earth: Rocket scientist explains how we could move our planet
+Enlarge
+NASA
+239
+WITH 114 POSTERS PARTICIPATING
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+In the Chinese science fiction film The Wandering Earth, recently released on Netflix, humanity attempts to change the Earth’s orbit using enormous thrusters in order to escape the expanding Sun—and prevent a collision with Jupiter.
+
+The scenario may one day come true. In five billion years, the Sun will run out of fuel and expand, most likely engulfing the Earth. A more immediate threat is a global warming apocalypse. Moving the Earth to a wider orbit could be a solution—and it is possible in theory.
+
+But how could we go about it and what are the engineering challenges? For the sake of argument, let us assume that we aim to move the Earth from its current orbit to an orbit 50% further from the Sun, similar to Mars’.
+
+We have been devising techniques to move small bodies—asteroids—from their orbit for many years, mainly to protect our planet from impacts. Some are based on an impulsive, and often destructive, action: a nuclear blast near or on the surface of the asteroid, or a “kinetic impactor”, for example a spacecraft colliding with the asteroid at high velocity. These are clearly not applicable to Earth due to their destructive nature.
+
+Other techniques instead involve a very gentle, continuous push over a long time, provided by a tugboat docked on the surface of the asteroid, or a spacecraft hovering near it (pushing through gravity or other methods). But this would be impossible for the Earth as its mass is enormous compared to even the largest asteroids.
+
+Electric thrusters
+We have actually already been moving the Earth from its orbit. Every time a probe leaves the Earth for another planet, it imparts a small impulse to the Earth in the opposite direction, similar to the recoil of a gun. Luckily for us—but unfortunately for the purpose of moving the Earth—this effect is incredibly small.
+
+SpaceX’s Falcon Heavy is the most capable launch vehicle today. We would need 300 billion billion launches at full capacity in order to achieve the orbit change to Mars. The material making up all these rockets would be equivalent to 85% of the Earth, leaving only 15% of Earth in Mars orbit.
+
+An electric thruster is a much more efficient way to accelerate mass—in particular ion drives, which work by firing out a stream of charged particles that propel the vessel forward. We could point and fire an electric thruster in the trailing direction of Earth’s orbit.
+
+The oversized thruster should be 1,000 kilometres above sea level, beyond Earth’s atmosphere, but still solidly attached to the Earth with a rigid beam, to transmit the pushing force. With an ion beam fired at 40 kilometres per second in the right direction, we would still need to eject the equivalent of 13% of the mass of the Earth in ions to move the remaining 87%.
+
+Sailing on light
+As light carries momentum, but no mass, we may also be able to continuously power a focused light beam, such as a laser. The required power would be collected from the Sun, and no Earth mass would be consumed. Even using the enormous 100GW laser plant envisaged by the Breakthrough Starshot project, which aims to propel spacecraft out of the solar system to explore neighbouring stars, it would still take three billion billion years of continuous use to achieve the orbital change.
+
+But light can also be reflected directly from the Sun to the Earth using a solar sail stationed next to the Earth. Researchers have shown that it would need a reflective disc 19 times bigger than the Earth’s diameter to achieve the orbital change over a timescale of one billion years.
+
+The trailer for Wandering Earth
+Interplanetary billiard
+A well-known technique for two orbiting bodies to exchange momentum and change their velocity is with a close passage, or gravitational slingshot. This type of manoeuvre has been extensively used by interplanetary probes. For example, the Rosetta spacecraft that visited comet 67P in 2014-2016, during its ten-year journey to the comet passed in the vicinity of the Earth twice, in 2005 and 2007.
+
+As a result, the gravity field of the Earth imparted a substantial acceleration to Rosetta, which would have been unachievable solely using thrusters. Consequently, the Earth received an opposite and equal impulse—although this did not have any measurable effect due to Earth’s mass.
+
+But what if we could perform a slingshot, using something much more massive than a spacecraft? Asteroids can certainly be redirected by the Earth, and while the mutual effect on Earth’s orbit will be tiny, this action can be repeated numerous times to ultimately achieve a considerable Earth orbit change.
+
+Some regions of the solar system are dense with small bodies such as asteroids and comets, the mass of many of which is small enough to be moved with realistic technology, but still orders of magnitude larger than what can be realistically launched from Earth.
+
+With accurate trajectory design, it is possible to exploit so-called “Δv leveraging”—a small body can be nudged out of its orbit and as a result swing past the Earth, providing a much larger impulse to our planet. This may seem exciting, but it has been estimated that we would need a million such asteroid close passes, each spaced about a few thousand years apart, to keep up with the Sun’s expansion.
+
+The verdict
+Of all the options available, using multiple asteroid slingshots seems the most achievable right now. But in the future, exploiting light might be the key—if we learn how to build giant space structures or super-powerful laser arrays. These could also be used for space exploration.
+
+But while it is theoretically possible, and may one day be technically feasible, it might actually be easier to move our species to our planetary next-door neighbour, Mars, which may survive the Sun’s destruction. We have, after all, already landed on and roved its surface several times.
+
+After considering how challenging it would be to move the Earth, colonizing Mars, making it habitable and moving Earth’s population there over time, might not sound as difficult after all.

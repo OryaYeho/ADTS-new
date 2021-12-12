@@ -17,7 +17,6 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -31,6 +30,7 @@ bld/
 [Oo]ut/
 [Ll]og/
 [Ll]ogs/
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -96,6 +96,14 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+ADTS.runtimeconfig.dev
+ADTS.exe
+ADTS.pdb
+ADTS.deps
+ADTS.dll
+ADTS.runtimeconfig.*
+ADTS.deps.json
+
 
 # Chutzpah Test files
 _Chutzpah*

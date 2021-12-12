@@ -1,0 +1,29 @@
+How to bring back the Wi-Fi and mobile data toggles on Android 12
+Ben Schoon
+
+- Oct. 26th 2021 8:43 am PT
+
+@NexusBen
+
+
+9 Comments 
+FacebookTwitterPinterestLinkedInReddit
+Android 12 introduces a new “Internet” menu that contains the options for both your Wi-Fi and mobile data, but strips away the simple toggles that the platform has offered for years now. If you don’t want that change, however, it’s relatively easy to bring back the simple toggles that were available before.
+
+What is the “Internet” button in Android 12?
+The new Internet button in Android 12’s Quick Settings menu replaces the original Wi-Fi and mobile data toggles with a consolidated menu that puts both of these options in one place. Google justifies the change, which now requires more taps to turn off Wi-Fi or data, saying that the new menu addresses a “pain point.”
+
+From our user studies, we found that the majority of users turn off Wi-Fi in order to force their phone to connect to cellular. This is usually done in response to a poor Wi-Fi connection and the lack of an alternative way to get the phone to explicitly connect to the user’s carrier. Users who turn off Wi-Fi will often forget to turn Wi-Fi back on again, resulting in possible excess mobile data usage.
+
+Google further said that it found through research studies that users found the new Internet panel in Android 12 “more intuitive” once they got used to it and that it reduced user error.
+
+How to bring back the old Wi-Fi toggle in Android 12
+If change isn’t really your thing, it’s rather simply to bring back the original toggles. For one, they seem to stick around for those who upgrade from Android 11 to Android 12. So if you have an older Pixel smartphone such as the Pixel 4a or Pixel 5, there’s a good chance you still have the Wi-Fi toggle instead of the new Internet menu following your update to Android 12.
+
+If not, there’s a simple ADB command to restore the original design. You’ll need a computer to properly run this bit, but once you have the needed tools, you can run the following command.
+
+adb shell settings put secure sysui_qs_tiles “wifi,cell,$(settings get secure sysui_qs_tiles)”
+
+Once you’ve run this command, the toggles should immediately be added to the Quick Settings menu as additional options, so you can add them and place them using the “Edit” button. If you don’t see them, trying rebooting your device.
+
+Importantly, this may not work on Pixel 6 devices. In our testing, the toggles can appear, but they seem to disappear not long after and refuse to come back. We observed this behavior on both of our Pixel 6 devices. On a Pixel 5a, it seems to stick, but your results may vary.

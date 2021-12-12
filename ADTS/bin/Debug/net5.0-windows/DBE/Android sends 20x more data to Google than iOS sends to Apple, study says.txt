@@ -1,0 +1,58 @@
+Android sends 20x more data to Google than iOS sends to Apple, study says
+Google contests the estimate, saying it's based on flawed methodology.
+DAN GOODIN - 3/31/2021, 1:18 AM
+
+A woman under a thick blanket looks at her smartphone.
+Enlarge / Insomnia people and mobile-addiction concepts.
+Getty Images
+185
+WITH 128 POSTERS PARTICIPATING, INCLUDING STORY AUTHOR
+SHARE ON FACEBOOK
+SHARE ON TWITTER
+This post has been updated to report objections researcher Doug Leith had to Google's critique of his research.
+
+Whether you have an iPhone or an Android device, it’s continuously sending data including your location, phone number, and local network details to Apple or Google. Now, a researcher has provided a side-by-side comparison that suggests that, while both iOS and Android collect handset data around the clock—even when devices are idle, just out of the box, or after users have opted out—the Google mobile OS collects about 20 times as much data as its Apple competitor.
+
+Both iOS and Android, researcher Douglas Leith from Trinity College in Ireland said, transmit telemetry data to their motherships even when a user hasn’t logged in or has explicitly configured privacy settings to opt out of such collection. Both OSes also send data to Apple and Google when a user does simple things such as inserting a SIM card or browsing the handset settings screen. Even when idle, each device connects to its back-end server on average every 4.5 minutes.
+
+Apps and more
+It wasn’t just the OSes that sent data to Apple or Google. Pre-installed apps or services also made network connections, even when they hadn’t been opened or used. Whereas iOS automatically sent Apple data from Siri, Safari, and iCloud, Android collected data from Chrome, YouTube, Google Docs, Safetyhub, Google Messenger, the device clock, and the Google search bar.
+
+The table below shows a summary of handset data sent to Apple or Google when the user isn’t logged in:
+
+
+Enlarge
+Douglas Leith
+Where Android stands out, Leith said, is in the amount of data it collects. At startup, an Android device sends Google about 1MB of data, compared with iOS sending Apple around 42KB. When idle, Android sends roughly 1MB of data to Google every 12 hours, compared with iOS sending Apple about 52KB over the same period. In the US alone, Android collectively gathers about 1.3TB of data every 12 hours. During the same period, iOS collects about 5.8GB.
+
+Google disagrees
+Google has contested the findings, saying that they’re based on faulty methods for measuring the data that’s collected by each OS. The company also contended that data collection is a core function of any Internet-connected device.
+
+In a statement, a spokesperson wrote:
+
+We identified flaws in the researcher's methodology for measuring data volume and disagree with the paper’s claims that an Android device shares 20 times more data than an iPhone. According to our research, these findings are off by an order of magnitude, and we shared our methodology concerns with the researcher before publication.
+
+This research largely outlines how smartphones work. Modern cars regularly send basic data about vehicle components, their safety status and service schedules to car manufacturers, and mobile phones work in very similar ways. This report details those communications, which help ensure that iOS or Android software is up to date, services are working as intended, and that the phone is secure and running efficiently.
+
+On background (meaning Ars isn’t permitted to name or quote the spokesperson), the representative said that it’s inaccurate to say that a user can opt out of all telemetry data collection by the Google OS. The Android Usage and Diagnostics checkbox doesn’t cover telemetry data that Google considers essential for the device to operate normally. Telemetry information collected by the Device Configuration service, for instance, is required for updating and patching the OS.
+
+The spokesperson also challenged the methods the researcher used to measure the amount of data collected by iOS. The experimental setup they used didn’t capture certain types of data, such as UDP/QUIC traffic, which is commonly transmitted by smartphones.
+
+In an email sent after this post went live, Leith said the response "does not accurately characterise the interactions that I’ve had with Google" and in his view was "positively misleading." He said he contacted Google to ask for a correction. On Friday, the Google spokesperson said the company had no plans to retract the statement. The spokesperson added that the company thinks the majority of Leith's research is accurate.
+
+An Apple spokesperson also spoke on the condition it be background. The spokesperson said that Apple provides transparency and control for personal information it collects, that the report gets things wrong, that Apple offers privacy protections that prevent Apple from tracking user locations, and that Apple informs users about the collection of location-related data.
+
+Round-the-clock collection
+Leith performed his measurements using a Google Pixel 2 running Android 10 and an iPhone 8 running iOS 13.6.1. The iPhone was jailbroken using the Checm8 exploit. The Pixel had Google Play services enabled.
+
+In all, the study, available here, measured the amount of data the devices collected:
+
+on first startup following a factory reset
+when a SIM was inserted or removed
+when a handset was idle
+when the settings screen was viewed
+when location was enabled or disabled
+when the user logged in to the pre-installed app store
+Leith said the data collection by both OSes is concerning because it’s readily linked to a user’s name, email address, payment card data, and possibly to other devices the user has. What’s more, the constant connections to back-end servers necessarily reveals the IP address of the device and, by extension, the general geographic location of the user.
+
+“Currently there are few, if any, realistic options for preventing this data sharing,” Leith wrote.
