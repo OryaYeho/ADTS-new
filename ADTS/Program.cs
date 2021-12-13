@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Collections;
 using LiteDB;
 using static ADTS.Tools;
+using static ADTS.ADTSData;
 
 namespace ADTS
 {
@@ -26,35 +27,69 @@ namespace ADTS
         {
             
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            
+            var a = Tools.GetAllCategories();
+            //ResetSystem();
             UpdateSystem();
-            if (Tools.GetAllCategories().Count != 0)
+            /*if (Tools.GetAllCategories().Count != 0)
             {
                 UpdateSystem();
-            }
+            }*/
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ADTS());
-
+            
 
             Console.ReadLine();
+            
         }
 
         
         public static void UpdateSystem()
         {
-            var all_categories = Tools.GetAllCategories();
-            var dbe_files = Directory.GetFiles(Tools.DBEDir);
-            foreach(string path in dbe_files)
-            {
-                Document dc = new Document(path);
-                foreach(Category ct in all_categories)
-                {
-
-                }
-            }
             
-         }
+            var dbe_files = Directory.GetFiles(Tools.DBEDir);
+            List<Document> no_common_words = new();
+            List<Document> no_common_notions = new();
+            int similarity_level = int.Parse(File.ReadAllText(Tools.similarityLevel));
+            var scores = new List<decimal>();
+            var list = new List<string>();
+            foreach (string path in dbe_files)
+            {
+                
+                Document dc = new Document(path);
+                var catlist = Tools.GetAllCategories();
+                foreach (Category ct in Tools.GetAllCategories())
+                {
+                    var dc_sum = Tools.GetSimilarNotions(ct.NWeight, dc.NWeight).Values.Sum();
+                    decimal cat_sum = ct.NWeight.Values.Sum();
+                    decimal relative_score = (dc_sum / cat_sum)*100;
+                    scores.Add(relative_score);
+                    if (relative_score >= similarity_level)
+                    {
+                        ct.MergeDictnionaries(dc);
+                        Tools.UpdateCategory(ct);
+                        dc.catlist.Add(ct.Name);
+                    }
+                }
+                if(dc.catlist.Count != 0)
+                {
+                    Tools.SaveDocument(dc);
+                    File.Move(path, Tools.fileDir + dc.Name);
+                }
+                scores.Add(-1);
+            }
+            var a = "";
+        }
+        public static void ResetSystem()
+        {
+            foreach (string path in Directory.GetFiles(Tools.fileDir)){
+                File.Move(path, Tools.DBEDir + Tools.GetDocName(path));
+            }
+            db.GetCollection<Category>("categories").DeleteAll();
+            db.GetCollection<Document>("documents").DeleteAll();
+        }
 
     }
 }

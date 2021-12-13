@@ -39,7 +39,7 @@ namespace ADTS
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-3, -2);
+            this.label1.Location = new System.Drawing.Point(-3, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 15);
             this.label1.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace ADTS
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(-3, 33);
+            this.label2.Location = new System.Drawing.Point(-3, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 15);
             this.label2.TabIndex = 1;
@@ -56,7 +56,7 @@ namespace ADTS
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(105, -2);
+            this.textBox1.Location = new System.Drawing.Point(105, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 23);
@@ -64,7 +64,7 @@ namespace ADTS
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(105, 71);
+            this.button1.Location = new System.Drawing.Point(105, 76);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -74,7 +74,7 @@ namespace ADTS
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(105, 30);
+            this.maskedTextBox1.Location = new System.Drawing.Point(105, 35);
             this.maskedTextBox1.Mask = "000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 23);
@@ -84,7 +84,7 @@ namespace ADTS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(217, 98);
+            this.ClientSize = new System.Drawing.Size(217, 107);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
