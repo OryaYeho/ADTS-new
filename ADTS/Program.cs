@@ -62,9 +62,9 @@ namespace ADTS
                 var catlist = Tools.GetAllCategories();
                 foreach (Category ct in Tools.GetAllCategories())
                 {
-                    var dc_sum = Tools.GetSimilarNotions(ct.NWeight, dc.NWeight).Values.Sum();
-                    decimal cat_sum = ct.NWeight.Values.Sum();
-                    decimal relative_score = (dc_sum / cat_sum)*100;
+                    var mutual_words_sum = Tools.GetSimilarNotions(ct.NWeight, dc.NWeight).Values.Sum();
+                    decimal dc_sum = dc.NWeight.Values.Sum();
+                    decimal relative_score = (mutual_words_sum / dc_sum)*100;
                     scores.Add(relative_score);
                     if (relative_score >= similarity_level)
                     {

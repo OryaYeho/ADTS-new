@@ -1,14 +1,3 @@
-Android 12 is so last week: Meet Android 12L, now in developer preview
-Android 12L brings tablet-focused features, like a dock and dual-pane interfaces.
-RON AMADEO - 10/27/2021, 8:00 PM
-
-Tablets have a dual-pane notification panel in Android 12L: The left side is quick settings, the right side is a list of notifications. 
-Enlarge / Tablets have a dual-pane notification panel in Android 12L: The left side is quick settings, the right side is a list of notifications.
-Google
-75
-WITH 54 POSTERS PARTICIPATING
-SHARE ON FACEBOOK
-SHARE ON TWITTER
 Have you heard about the new version of Android? No, not Android 12—that launched an entire week ago! It's time to talk about the new new version of Android: "Android 12L."
 
 Remember all those talks we had about a mid-cycle, tablet-focused release of Android that the community had unofficially dubbed "Android 12.1"? That release is officially "Android 12L," and it's out now as a developer preview.
@@ -19,22 +8,17 @@ There are over a quarter billion large screen devices running Android across tab
 
 The wildest new addition to Android is a taskbar at the bottom of the screen. Google says the bar will let users "instantly switch to favorite apps." It sounds like you can pin shortcuts to the bar, but we haven't heard anything about recent or running apps showing up there. One GIF Google shared shows that a permanent bar full of icons makes it very easy to enter split-screen mode—just drag an icon out from the bar into either half of the display.
 
-Android 12L: activating split-screen mode from the dock.
-Android 12L: activating split-screen mode from the dock.
-Google
+
 Once you're in split-screen mode, your two apps will be separated by a divider that appears to let you resize the windows. Each app window has rounded corners, and the dock icons are square—an odd change given that Android 12 uses round corners on just about everything else.
 
 The notification panel on phones uses an expandable, accordion-style UI; you swipe down once for the notification panel and swipe down again to expand the quick settings. On Android 12L, these two panels live right next to each other, fully expanded, in the new dual-pane panel.
 
 Google would really like developers to make tablet apps optimized for big screens, and to that end, it has recommended navigation patterns, a resizable emulator, and various responsive UI APIs. One demo cycles through several recommended display modes, like a single panel "phone" layout, an "unfolded foldable" layout with a visible navigation panel next to a wide content area, a "tablet" mode with a dual-pane layout, and an even bigger "desktop" layout for Android on Chrome OS devices.
 
-Android tablets, take two
 Android 12L represents Google's second attempt to launch an Android tablet ecosystem; the first was the 2011 launch of Android 3.0 Honeycomb. A big reason the earlier devices failed to take off was their lack of tablet-specific apps, and Google was a major part of the problem. While it shipped a decent suite of apps with Honeycomb, the company never iterated on them for long. Google seemed to lose interest in the software side of tablets when they didn't become an immediate success, and Android slowly lost the bare-bones tablet functionality it initially had. By the time the last Google tablet, the Pixel C, launched in 2016, the device was dead on arrival thanks to a neglected tablet app ecosystem.
 
 Hopefully, Google has learned the lessons of Honeycomb and leads the tablet app ecosystem by example. The company needs to invest significantly in building tablet apps for all its major products, and it needs to maintain them and iterate on them for years. In the Honeycomb era, it was hard to demand that any third-party developer invest in the tablet ecosystem when Google wasn't even willing to do it itself.
 There are a few extra screens here, like the dual-pane settings and Recent apps. 
-Enlarge / There are a few extra screens here, like the dual-pane settings and Recent apps.
-Google
 The main difference between today and the Honeycomb era is the advent of foldables. Samsung has been developing the Galaxy Fold for three years now, with no signs of slowing down. As the company hits record-high foldable sales and record-low slab smartphone sales, it seems that foldables may soon represent a significant chunk of the high-end Android smartphone market. Robust software support will be essential.
 
 One interesting question Google still has to answer is "what exactly is Android 12L for?" Google hasn't made an Android tablet for six years, so there are no devices that are immediately compatible with the Android 12L Developer Preview. You have to run it on an emulator. The Android hardware ecosystem seems to have known this big-screen release was coming. In addition to all the new Samsung foldables and tablets, we've seen Xiaomi, Lenovo, Nokia, and Walmart all take a sudden interest in tablet hardware.

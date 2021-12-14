@@ -27,9 +27,9 @@ namespace ADTS
             dataGridView1.Dock = DockStyle.Fill;
             dataGridView1.AutoSizeColumnsMode =
             DataGridViewAutoSizeColumnsMode.Fill;
+            toolStrip2.Items.Add("New Category+");//.Alignment = ToolStripItemAlignment.Right;
+            toolStrip2.Items.Add("Set Similarity Level (" + File.ReadAllText(Tools.similarityLevel) + "%)");//.Alignment = ToolStripItemAlignment.Right;
             
-            toolStrip1.Items.Add("Set Similarity Level (" + File.ReadAllText(Tools.similarityLevel)+"%)").Alignment = ToolStripItemAlignment.Right;
-            toolStrip1.Items.Add("New Category+").Alignment = ToolStripItemAlignment.Right;
 
             var cat_list = Tools.GetAllCategories();
 
@@ -43,8 +43,8 @@ namespace ADTS
             {
                 toolStrip1.Items.Add(ct.Name);
             }
-            toolStrip1.Items[2].BackColor = Color.LightSteelBlue;
-            lastClicked = toolStrip1.Items[2];
+            toolStrip1.Items[0].BackColor = Color.LightSteelBlue;
+            lastClicked = toolStrip1.Items[0];
             //lastClicked.BackColor = Color.LightSteelBlue; 
             //toolStrip1.Items[0].BackColor = Color.LightSteelBlue;
             foreach (Document dc in Tools.GetDocumentByCatName(cat_list[0].Name))
@@ -71,19 +71,7 @@ namespace ADTS
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
-            if (e.ClickedItem.Text.Contains("New Category"))
-            {
-                AddCategory newcat = new();
-                this.Hide();
-                newcat.Show();
-                return;
-            };
-            if (e.ClickedItem.Text.Contains("Set Similarity Level"))
-            {
-                new SimilairtyLevel().Show();
-                this.Hide();
-                return;
-            }
+            
             lastClicked.BackColor = Color.Transparent;
             lastClicked = e.ClickedItem;
             e.ClickedItem.BackColor = Color.LightSteelBlue;
@@ -103,6 +91,29 @@ namespace ADTS
         {
             var v = Tools.GetAllCategories();
             Program.db.Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Program.UpdateSystem();
+            this.Refresh();
+        }
+
+        private void toolStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if (e.ClickedItem.Text.Contains("New Category"))
+            {
+                AddCategory newcat = new();
+                this.Hide();
+                newcat.Show();
+                return;
+            };
+            if (e.ClickedItem.Text.Contains("Set Similarity Level"))
+            {
+                new SimilairtyLevel().Show();
+                this.Hide();
+                return;
+            }
         }
     }
 }
