@@ -90,6 +90,7 @@ namespace ADTS
         private void ADTS_FormClosed(object sender, FormClosedEventArgs e)
         {
             var v = Tools.GetAllCategories();
+            Tools.TempAdd(new Document() { });
             Program.db.Dispose();
         }
 

@@ -27,9 +27,10 @@ namespace ADTS
         {
             
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            
-            var a = Tools.GetAllCategories();
-            //ResetSystem();
+
+            MessageBox.Show("number of categories: "+Tools.GetAllCategories().Count.ToString());
+
+            ResetSystem();
             UpdateSystem();
             /*if (Tools.GetAllCategories().Count != 0)
             {
@@ -39,8 +40,8 @@ namespace ADTS
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ADTS());
-            
 
+            
             Console.ReadLine();
             
         }
@@ -48,7 +49,8 @@ namespace ADTS
         
         public static void UpdateSystem()
         {
-            
+            if (Tools.GetAllCategories().Count == 0) return;
+
             var dbe_files = Directory.GetFiles(Tools.DBEDir);
             List<Document> no_common_words = new();
             List<Document> no_common_notions = new();

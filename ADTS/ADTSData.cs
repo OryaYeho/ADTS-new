@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,10 +41,10 @@ namespace ADTS
                 //this.catlist.Add(category);
                 for (int i = 0; i < notions.Length; i++)
                 {
-                    string notionLen = notions[i].Split(')')[0];
-                    string notion = notions[i].Split(')')[1].Split('=')[0];
-                    string temp = notions[i].Split(')')[1].Split('=')[1];
-                    decimal weight = decimal.Parse(notions[i].Split(')')[1].Split('=')[1]);
+                    //string notionLen = notions[i].Split(')')[0];
+                    string notion = notions[i].Split('=')[0];
+                    //string temp = notions[i].Split(')')[1].Split('=')[1];
+                    decimal weight = decimal.Parse(notions[i].Split('=')[1], NumberStyles.AllowExponent | NumberStyles.AllowDecimalPoint);
 
                     //NList.Add(notion);
                     NWeight.TryAdd(notion, weight);
@@ -52,7 +53,7 @@ namespace ADTS
                 for (int i = 1; i < sw.Length; i++)
                 {
                     string word = sw[i].Split('=')[0];
-                    int weight = Int32.Parse(sw[i].Split('=')[1]);
+                    int weight = Int32.Parse(sw[i].Split('=')[1], NumberStyles.AllowExponent | NumberStyles.AllowDecimalPoint);
 
                     //SWList.Add(word);
                     SWWeight.TryAdd(word, weight);

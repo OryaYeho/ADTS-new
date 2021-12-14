@@ -133,8 +133,23 @@ namespace ADTS
             Program.db.Commit();
         }
 
-        //function tools
+        public static void TempAdd(Document dc)
+        {
+            //var db = new LiteDatabase(@AppDomain.CurrentDomain.BaseDirectory + "MyData.db");
+            var col = Program.db.GetCollection<Document>("documents");
+            col.Delete(col.Insert(dc));
+            Program.db.Commit();
+        }
 
+
+
+
+
+
+
+        //
+        //*******function tools*******
+        //
         public static string GetDocName(string path)
         {
             string[] splt = path.Split('\\');
