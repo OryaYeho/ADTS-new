@@ -21,36 +21,10 @@ namespace ADTS
         {
             InitializeComponent();
             this.CenterToScreen();
-            
+            Load();
             //lastClicked = toolStrip1.Items[0];
            // toolStrip1.Items[0].BackColor = Color.LightSteelBlue;
-            dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.AutoSizeColumnsMode =
-            DataGridViewAutoSizeColumnsMode.Fill;
-            toolStrip2.Items.Add("New Category+");//.Alignment = ToolStripItemAlignment.Right;
-            toolStrip2.Items.Add("Set Similarity Level (" + File.ReadAllText(Tools.similarityLevel) + "%)");//.Alignment = ToolStripItemAlignment.Right;
-            
-
-            var cat_list = Tools.GetAllCategories();
-
-            //if there are no categories in the database/system
-            if(cat_list.Count == 0) {
-                dataGridView1.Visible = false;
-                return; }
-
-            //else
-            foreach(Category ct in cat_list)
-            {
-                toolStrip1.Items.Add(ct.Name);
-            }
-            toolStrip1.Items[0].BackColor = Color.LightSteelBlue;
-            lastClicked = toolStrip1.Items[0];
-            //lastClicked.BackColor = Color.LightSteelBlue; 
-            //toolStrip1.Items[0].BackColor = Color.LightSteelBlue;
-            foreach (Document dc in Tools.GetDocumentByCatName(cat_list[0].Name))
-            {
-                dataGridView1.Rows.Add(dc.Name);
-            }
+           
             
 
         }
@@ -91,7 +65,7 @@ namespace ADTS
         {
             var v = Tools.GetAllCategories();
             Tools.TempAdd(new Document() { });
-            Program.db.Dispose();
+            //Program.db.Dispose();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -108,13 +82,66 @@ namespace ADTS
                 this.Hide();
                 newcat.Show();
                 return;
-            };
-            if (e.ClickedItem.Text.Contains("Set Similarity Level"))
+            }
+             if (e.ClickedItem.Text.Contains("Set Similarity Level"))
             {
                 new SimilairtyLevel().Show();
                 this.Hide();
                 return;
             }
+             if (e.ClickedItem.Text.Contains("Refresh"))
+            {
+                Program.UpdateSystem();
+                Load();
+                //new ADTS().Show();
+                //this.Close();
+            }
+            if (e.ClickedItem.Text.Contains("Reset"))
+            {
+                Program.ResetSystem();
+                Load();
+                //new ADTS().Show();
+                //this.Close();
+            }
         }
-    }
+        public void Load()
+        {
+            //clearing old data
+            dataGridView1.Rows.Clear();
+            toolStrip1.Items.Clear();
+            toolStrip2.Items.Clear();
+            //end of clearing data
+
+            dataGridView1.Dock = DockStyle.Fill;
+            dataGridView1.AutoSizeColumnsMode =
+            DataGridViewAutoSizeColumnsMode.Fill;
+            toolStrip2.Items.Add("New Category+");//.Alignment = ToolStripItemAlignment.Right;
+            toolStrip2.Items.Add("Set Similarity Level (" + File.ReadAllText(Tools.similarityLevel) + "%)");//.Alignment = ToolStripItemAlignment.Right;
+            toolStrip2.Items.Add("Refresh");
+            toolStrip2.Items.Add("Reset");
+
+            var cat_list = Tools.GetAllCategories();
+
+            //if there are no categories in the database/system
+            if (cat_list.Count == 0)
+            {
+                dataGridView1.Visible = false;
+                return;
+            }
+
+            //else
+            foreach (Category ct in cat_list)
+            {
+                toolStrip1.Items.Add(ct.Name);
+            }
+            toolStrip1.Items[0].BackColor = Color.LightSteelBlue;
+            lastClicked = toolStrip1.Items[0];
+            //lastClicked.BackColor = Color.LightSteelBlue; 
+            //toolStrip1.Items[0].BackColor = Color.LightSteelBlue;
+            foreach (Document dc in Tools.GetDocumentByCatName(cat_list[0].Name))
+            {
+                dataGridView1.Rows.Add(dc.Name);
+            }
+        }
+        }
 }

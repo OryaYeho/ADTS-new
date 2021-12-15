@@ -30,7 +30,7 @@ namespace ADTS
 
             MessageBox.Show("number of categories: "+Tools.GetAllCategories().Count.ToString());
 
-            ResetSystem();
+            //ResetSystem();
             UpdateSystem();
             /*if (Tools.GetAllCategories().Count != 0)
             {
