@@ -28,9 +28,9 @@ namespace ADTS
             
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
-            MessageBox.Show("number of categories: "+Tools.GetAllCategories().Count.ToString());
+            //MessageBox.Show("number of categories: "+Tools.GetAllCategories().Count.ToString());
 
-            //ResetSystem();
+           // ResetSystem();
             UpdateSystem();
             /*if (Tools.GetAllCategories().Count != 0)
             {
@@ -40,10 +40,7 @@ namespace ADTS
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ADTS());
-
-            
-            Console.ReadLine();
-            
+            Application.Exit();
         }
 
         
@@ -64,6 +61,7 @@ namespace ADTS
                 var catlist = Tools.GetAllCategories();
                 foreach (Category ct in Tools.GetAllCategories())
                 {
+                    var number_of_common_notions = Tools.GetSimilarNotions(ct.NWeight, dc.NWeight).Count;
                     var mutual_words_sum = Tools.GetSimilarNotions(ct.NWeight, dc.NWeight).Values.Sum();
                     decimal dc_sum = dc.NWeight.Values.Sum();
                     decimal relative_score = (mutual_words_sum / dc_sum)*100;

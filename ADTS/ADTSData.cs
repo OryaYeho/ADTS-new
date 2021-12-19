@@ -37,7 +37,7 @@ namespace ADTS
                 string[] sw = new string[] { };
                 string[] notions = new string[] { };
                 Tools.DLLTransformation(path, ref notions, ref sw);
-
+                
                 //this.catlist.Add(category);
                 for (int i = 0; i < notions.Length; i++)
                 {

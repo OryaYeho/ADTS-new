@@ -49,6 +49,11 @@ namespace ADTS
             }
             string[] wordD = wordDList.ToArray(); //***relevant to dll***
             string[] posD = posDList.ToArray(); //***relevant to dll***
+            string TextCompression = "";
+            string sts = "";
+            HybridSA.DigitalTextImage.MakeMSTTR(FullText, ref nDictionaryWords, ref wordD, ref posD, 5, ref sts, ref TextCompression);
+            FullText = sts;
+            
             TransformTextToNotions.Transformation(FullText, nDictionaryWords, wordD, posD, ref NotionAR, ref SWlist);
         }
         public static void prntArr(object[] arr)

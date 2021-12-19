@@ -65,6 +65,7 @@ namespace ADTS
         {
             var v = Tools.GetAllCategories();
             Tools.TempAdd(new Document() { });
+            return;
             //Program.db.Dispose();
         }
 
@@ -91,15 +92,19 @@ namespace ADTS
             }
              if (e.ClickedItem.Text.Contains("Refresh"))
             {
+                this.Cursor = Cursors.WaitCursor;
                 Program.UpdateSystem();
                 Load();
+                this.Cursor = Cursors.Default;
                 //new ADTS().Show();
                 //this.Close();
             }
             if (e.ClickedItem.Text.Contains("Reset"))
             {
+                this.Cursor = Cursors.WaitCursor;
                 Program.ResetSystem();
                 Load();
+                this.Cursor = Cursors.Default;
                 //new ADTS().Show();
                 //this.Close();
             }
