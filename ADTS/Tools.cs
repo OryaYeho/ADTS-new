@@ -51,8 +51,8 @@ namespace ADTS
             string[] posD = posDList.ToArray(); //***relevant to dll***
             string TextCompression = "";
             string sts = "";
-            HybridSA.DigitalTextImage.MakeMSTTR(FullText, ref nDictionaryWords, ref wordD, ref posD, 5, ref sts, ref TextCompression);
-            FullText = sts;
+            //HybridSA.DigitalTextImage.MakeMSTTR(FullText, ref nDictionaryWords, ref wordD, ref posD, 5, ref sts, ref TextCompression);
+            //FullText = sts;
             
             TransformTextToNotions.Transformation(FullText, nDictionaryWords, wordD, posD, ref NotionAR, ref SWlist);
         }
@@ -162,7 +162,7 @@ namespace ADTS
         }
 
         //returns dictionary of mutual words
-        public static Dictionary<string, decimal> GetSimilarNotions(Dictionary<string, decimal> category, Dictionary<string, decimal> document)
+        public static Dictionary<string, decimal> DictionaiesIntersection(Dictionary<string, decimal> category, Dictionary<string, decimal> document)
         {
             Dictionary<string, decimal> result = new();
             foreach(var pair in document)
@@ -174,7 +174,84 @@ namespace ADTS
             }
             return result;
         }
-        
-        
+        public static Dictionary<string, decimal> DictionaiesDisjoint(Dictionary<string, decimal> dic1, Dictionary<string, decimal> dic2)
+        {
+            Dictionary<string, decimal> result = new();
+            foreach (var pair in dic2)
+            {
+                if (!dic1.ContainsKey(pair.Key))
+                {
+                    result.Add(pair.Key, dic2[pair.Key]);
+                }
+            }
+            return result;
+        }
+        public static Dictionary<string, decimal> SplitNotionsToWord(Dictionary<string, decimal> NotionesDictionary)
+        {
+            Dictionary<string, decimal> result = new Dictionary<string, decimal>();
+            foreach(var pair in NotionesDictionary)
+            {
+                foreach(string word in pair.Key.Split("->"))
+                {
+                    result.TryAdd(word, 0);
+                }
+            }
+            return result;
+        }
+
+        public static decimal SimilarityLevel(Category cat, Document dc)
+        {
+            decimal similarity = 0;
+            decimal NotionsWeight = 0, Q = 4, WordsWeight = 0;
+            var SharedWords = DictionaiesIntersection(cat.SWWeight, dc.SWWeight);
+            /*var SharedNotions = DictionaiesIntersection(cat.NWeight, dc.NWeight);
+            foreach (var pair in SharedNotions)
+            {
+                foreach(string word in pair.Key.Split("->"))
+                {
+                    NotionsWeight += cat.SWWeight[word];
+                }
+            }
+
+            var WordsNotInNotions = DictionaiesDisjoint(dc.SWWeight, SplitNotionsToWord(SharedNotions));*/
+
+            foreach(var pair in SharedWords)
+            {
+                similarity += cat.SWWeight[pair.Key];
+            }
+            foreach(var pair in dc.SWWeight)
+            {
+                WordsWeight += cat.SWWeight.ContainsKey(pair.Key) ? cat.SWWeight[pair.Key] : pair.Value;
+            }
+            return (similarity / WordsWeight) * 100;
+            
+
+
+
+
+            /*foreach (string notion in dc.NWeight.Keys)
+            {
+                bool NotionContainsWord = false;
+                bool WordHasHighScore = false;
+                foreach(string word in notion.Split("->"))
+                {
+                    if (cat.SWWeight.ContainsKey(word))
+                    {
+                        NotionContainsWord = true;
+
+
+                    }
+                }
+                if (NotionContainsWord)
+                {
+                    score += dc.NWeight[notion];
+                }
+             return (score/dc.NWeight.Values.Sum())*100;
+            }*/
+
+
+        }
+
+
     }
 }

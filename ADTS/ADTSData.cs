@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using LiteDB;
 
@@ -50,14 +52,14 @@ namespace ADTS
                     NWeight.TryAdd(notion, weight);
 
                 }
+                string FullText = File.ReadAllText(path).ToLower();
                 for (int i = 1; i < sw.Length; i++)
                 {
                     string word = sw[i].Split('=')[0];
                     int weight = Int32.Parse(sw[i].Split('=')[1], NumberStyles.AllowExponent | NumberStyles.AllowDecimalPoint);
 
                     //SWList.Add(word);
-                    SWWeight.TryAdd(word, weight);
-
+                    SWWeight.TryAdd(word, Regex.Matches(FullText,word).Count);
                 }
 
             }
@@ -99,7 +101,15 @@ namespace ADTS
 
                 foreach (var entry in dc.SWWeight)
                 {
-                    SWWeight.TryAdd(entry.Key, entry.Value);
+                    if (SWWeight.ContainsKey(entry.Key))
+                    {
+                        SWWeight[entry.Key] += entry.Value;
+                    }
+                    else
+                    {
+                        SWWeight.Add(entry.Key, entry.Value);
+                    }
+                    
                 }
             }
         }
