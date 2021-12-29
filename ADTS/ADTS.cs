@@ -92,6 +92,11 @@ namespace ADTS
             }
              if (e.ClickedItem.Text.Contains("Refresh"))
             {
+                if (Tools.GetAllCategories().Count == 0)
+                {
+                    MessageBox.Show("You haven't created categories yet");
+                    return;
+                }
                 this.Cursor = Cursors.WaitCursor;
                 Program.UpdateSystem();
                 Load();
@@ -105,8 +110,26 @@ namespace ADTS
                 Program.ResetSystem();
                 Load();
                 this.Cursor = Cursors.Default;
+                MessageBox.Show("System has been reset");
                 //new ADTS().Show();
                 //this.Close();
+            }
+            if (e.ClickedItem.Text.Contains("Non Relevant")){
+                //check if there are categories or files in Nonrelevant
+                if(Tools.GetAllCategories().Count == 0)
+                {
+                    MessageBox.Show("You haven't created categories yet");
+                    return;
+                }
+                if (Directory.GetFiles(Tools.NonRelevant).Length==0)
+                {
+                    MessageBox.Show("No documents to classify");
+                    return;
+                }
+                var classify = new NonRelevant();
+                this.Hide();
+                classify.Show();
+                return;
             }
         }
         public void Load()
@@ -124,7 +147,7 @@ namespace ADTS
             toolStrip2.Items.Add("Set Similarity Level (" + File.ReadAllText(Tools.similarityLevel) + "%)");//.Alignment = ToolStripItemAlignment.Right;
             toolStrip2.Items.Add("Refresh");
             toolStrip2.Items.Add("Reset");
-
+            toolStrip2.Items.Add("Non Relevant");
             var cat_list = Tools.GetAllCategories();
 
             //if there are no categories in the database/system

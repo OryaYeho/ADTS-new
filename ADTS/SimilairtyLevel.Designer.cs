@@ -84,7 +84,7 @@ namespace ADTS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(217, 107);
+            this.ClientSize = new System.Drawing.Size(260, 107);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);

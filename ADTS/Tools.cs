@@ -22,6 +22,8 @@ namespace ADTS
         public static readonly string fileDir = projDir + "DBI\\";
         //path for the DBE folder
         public static readonly string DBEDir = projDir + "DBE\\";
+        //Non Relevant folder
+        public static readonly string NonRelevant = projDir+"Non Relevant\\";
         //settings folder
         public static readonly string settings = projDir + "Settings\\";
         //similairty level

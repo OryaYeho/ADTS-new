@@ -104,6 +104,7 @@ namespace ADTS
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "AddCategory";
+            this.Text = "New Category";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddCategory_FormClosed);
             this.Load += new System.EventHandler(this.AddCategory_Load);
             this.ResumeLayout(false);

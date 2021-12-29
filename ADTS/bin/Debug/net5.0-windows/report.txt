@@ -1,248 +1,132 @@
-5 things you didn't know about the Android Market, Google's original app store.txt 
-cs algo 16 similar notions: 0
-cs graphics 13 similar notions: 0
-
 AirTag Owners Bemoan Inability to Let Others Track Their Items Via Family Sharing.txt 
-cs algo 16 similar notions: 0
-cs graphics 13 similar notions: 0
-
-Android 12 is so last week Meet Android 12L, now in developer preview.txt 
-cs algo 8 similar notions: 0
-cs graphics 20 similar notions: 0
-
-Android 12.1 leak shows off iPad-style dock, dual-pane system UI.txt 
-cs algo 22 similar notions: 0
-cs graphics 13 similar notions: 1
+android 73 similar notions: 1
+apple 77 similar notions: 1
 
 Android 6 and up will start stripping unused apps’ permissions.txt 
-cs algo 11 similar notions: 0
-cs graphics 11 similar notions: 1
-
-Android sends 20x more data to Google than iOS sends to Apple, study says.txt 
-cs algo 17 similar notions: 0
-cs graphics 14 similar notions: 0
+android 76 similar notions: 7
+apple 66 similar notions: 2
 
 Android to take an “upstream first” development model for the Linux kernel.txt 
-cs algo 10 similar notions: 0
-cs graphics 25 similar notions: 0
+android 79 similar notions: 12
+apple 72 similar notions: 1
 
 Apple brass discussed disclosing 128-million iPhone hack, then decided not to.txt 
-cs algo 12 similar notions: 0
-cs graphics 13 similar notions: 0
-
-Apple expands data encryption under iOS 8, making handover to cops moot.txt 
-cs algo 12 similar notions: 0
-cs graphics 26 similar notions: 0
-
-Apple forgot to sanitize the Phone Number field for lost AirTags.txt 
-cs algo 15 similar notions: 0
-cs graphics 11 similar notions: 0
-
-Apple M1-native malware has already begun to appear.txt 
-cs algo 12 similar notions: 0
-cs graphics 12 similar notions: 0
+android 70 similar notions: 3
+apple 62 similar notions: 2
 
 Apple rolls major Safari redesign out to Macs ahead of Monterey release.txt 
-cs algo 20 similar notions: 0
-cs graphics 18 similar notions: 0
+android 80 similar notions: 2
+apple 75 similar notions: 1
 
 Apple Watch lead Kevin Lynch shifts focus to car development.txt 
-cs algo 9 similar notions: 0
-cs graphics 33 similar notions: 0
+android 78 similar notions: 1
+apple 79 similar notions: 2
 
 Apple Watch Series 7 orders begin next week, leaks claim.txt 
-cs algo 17 similar notions: 0
-cs graphics 24 similar notions: 0
+android 72 similar notions: 1
+apple 76 similar notions: 1
 
 Apple's cleaning cloth is sold out through January — get this instead.txt 
-cs algo 19 similar notions: 0
-cs graphics 17 similar notions: 0
+android 68 similar notions: 0
+apple 63 similar notions: 0
 
 Apple’s new AirPods Max over-ear headphones cost $549.txt 
-cs algo 14 similar notions: 0
-cs graphics 33 similar notions: 0
-
-CS _ Algorithm design  A street lighting system designed with features to detect critical functional problems using data fusion concepts is presented. With measurements.txt 
-cs algo 65 similar notions: 0
-cs graphics 41 similar notions: 0
-
-CS _ Algorithm design  According to compression sensing reconstruction algorithm of Orthogonal Matching Pursuit (OMP) algorithm the problem of each iteration can't select the.txt 
-cs algo 68 similar notions: 0
-cs graphics 48 similar notions: 0
-
-CS _ Algorithm design  Accurate and timely knowledge is critical in intelligent transportation system (ITS) as it leads to improved traffic flow management. The.txt 
-cs algo 56 similar notions: 1
-cs graphics 40 similar notions: 0
-
-CS _ Algorithm design  Adaptive algorithms are prevalently applied in the design of nonlinear active noise control (ANC) systems. The most important nonlinearity in.txt 
-cs algo 42 similar notions: 0
-cs graphics 54 similar notions: 0
-
-CS _ Algorithm design  AES represents the algorithm for advanced encryption standard consistof different operations required in the steps of encryption and decryption. The.txt 
-cs algo 70 similar notions: 1
-cs graphics 50 similar notions: 0
-
-CS _ Algorithm design  Aiming at a poor optimization effect, search difficulty of feasible solution and other problems of existing optimization methods for deriving.txt 
-cs algo 78 similar notions: 1
-cs graphics 63 similar notions: 0
-
-CS _ Algorithm design  Aiming at improving the poor real-time performance of existing nonlinear filtering algorithms applied to spacecraft autonomous navigation based on Global.txt 
-cs algo 54 similar notions: 1
-cs graphics 43 similar notions: 0
-
-CS _ Algorithm design  Aiming to reduce the losses of shipwreck, this paper employs methods in mathematics and simulation fields to build a progressive.txt 
-cs algo 64 similar notions: 0
-cs graphics 53 similar notions: 0
-
-CS _ Algorithm design  Algorithm design and analysis is a core course of the computer and related professional, also is a comprehensive and practical.txt 
-cs algo 40 similar notions: 1
-cs graphics 66 similar notions: 0
-
-CS _ Algorithm design  Algorithm Design and Analysis is one of the core courses for undergraduates majoring in Computer Science and Technology. Based on.txt 
-cs algo 74 similar notions: 2
-cs graphics 75 similar notions: 0
-
-CS _ Algorithm design  Although multi-label learning can deal with many problems with label ambiguity, it does not fit some real applications well where.txt 
-cs algo 56 similar notions: 0
-cs graphics 39 similar notions: 1
-
-CS _ Computer graphics  A new lightning shielding failure evaluation method based on the electro-geometric method aided by 3D graphics technology is introduced. The.txt 
-cs algo 55 similar notions: 2
-cs graphics 62 similar notions: 0
-
-CS _ Computer graphics  A novel switching circuitry for fully differential millimetre-wave applications is presented. The structure of the proposed switching architecture includes 90.txt 
-cs algo 44 similar notions: 0
-cs graphics 39 similar notions: 0
-
-CS _ Computer graphics  A phase-only computer-generated holography (CGH) calculation method for stereoscopic holography is proposed in this paper. The two-dimensional (2D) perspective projection.txt 
-cs algo 63 similar notions: 0
-cs graphics 72 similar notions: 0
-
-CS _ Computer graphics  A tangent vector field on a surface is the generator of a smooth family of maps from the surface to.txt 
-cs algo 54 similar notions: 0
-cs graphics 39 similar notions: 0
-
-CS _ Computer graphics  A test oracle determines whether a test execution reveals a fault, often by comparing the observed program output to the.txt 
-cs algo 21 similar notions: 0
-cs graphics 46 similar notions: 1
-
-CS _ Computer graphics  Accurately and reliably tracking the undulatory motion of deformable fish body is of great significance for not only scientific researches.txt 
-cs algo 62 similar notions: 1
-cs graphics 50 similar notions: 1
-
-CS _ Computer graphics  Advances in artificial intelligence and computer graphics digital technologies have contributed to a relative increase in realism in virtual characters..txt 
-cs algo 12 similar notions: 0
-cs graphics 63 similar notions: 1
-
-CS _ Computer graphics  Advances in computing technology and computer graphics engulfed with huge collections of data have introduced new visualization techniques. This gives.txt 
-cs algo 59 similar notions: 1
-cs graphics 65 similar notions: 1
-
-CS _ Computer graphics  Aiming at solving the problems on dynamic occlusion of complete denture in the field of dental restoration, this paper presents.txt 
-cs algo 41 similar notions: 0
-cs graphics 59 similar notions: 1
-
-CS _ Computer graphics  American Sign Language (ASL) fingerspelling is the act of spelling a word letter-by-letter when a specific sign does not exist.txt 
-cs algo 30 similar notions: 0
-cs graphics 45 similar notions: 0
+android 72 similar notions: 1
+apple 70 similar notions: 0
 
 Exercise Is Shown to Be an Effective Depression Treatment.txt 
-cs algo 23 similar notions: 0
-cs graphics 17 similar notions: 0
+android 57 similar notions: 0
+apple 50 similar notions: 0
 
 Google is killing Android Auto for phones (if you even know what that is).txt 
-cs algo 12 similar notions: 0
-cs graphics 11 similar notions: 0
+android 79 similar notions: 2
+apple 65 similar notions: 0
 
 Google is now writing low-level Android code in Rust.txt 
-cs algo 11 similar notions: 0
-cs graphics 13 similar notions: 0
+android 75 similar notions: 3
+apple 63 similar notions: 0
 
 Google ships Android 12 for the Pixel 3 and up.txt 
-cs algo 20 similar notions: 0
-cs graphics 15 similar notions: 0
+android 83 similar notions: 6
+apple 67 similar notions: 0
 
 Google will kill off very old versions of Android next month.txt 
-cs algo 11 similar notions: 0
-cs graphics 10 similar notions: 0
+android 77 similar notions: 3
+apple 70 similar notions: 1
 
 Google's document for device manufacturers lists a launch day and support timelines..txt 
-cs algo 17 similar notions: 0
-cs graphics 10 similar notions: 0
+android 88 similar notions: 8
+apple 78 similar notions: 1
 
 Here’s why scientists haven’t invented an impossible space engine.txt 
-cs algo 15 similar notions: 0
-cs graphics 32 similar notions: 0
+android 74 similar notions: 1
+apple 75 similar notions: 1
 
 Hot gas-giant planet appears to have iron rain.txt 
-cs algo 14 similar notions: 1
-cs graphics 13 similar notions: 0
+android 49 similar notions: 3
+apple 42 similar notions: 2
 
 How biological detective work can reveal who engineered a virus.txt 
-cs algo 14 similar notions: 0
-cs graphics 25 similar notions: 0
+android 62 similar notions: 0
+apple 62 similar notions: 2
 
 How to bring back the Wi-Fi and mobile data toggles on Android 12.txt 
-cs algo 26 similar notions: 0
-cs graphics 26 similar notions: 0
+android 85 similar notions: 1
+apple 73 similar notions: 0
 
 In 8 US states, Apple will begin storing driver’s licenses on the iPhone.txt 
-cs algo 15 similar notions: 0
-cs graphics 17 similar notions: 0
+android 71 similar notions: 1
+apple 70 similar notions: 0
 
 Israel’s Immunai to use $215 mil. investment to develop, test new drugs.txt 
-cs algo 23 similar notions: 0
-cs graphics 23 similar notions: 0
+android 48 similar notions: 0
+apple 38 similar notions: 2
 
 M.txt 
-cs algo 3 similar notions: 0
-cs graphics 6 similar notions: 0
+android 55 similar notions: 0
+apple 47 similar notions: 0
 
 Metals from space descend on Boulder, Colorado, at dusk and dawn.txt 
-cs algo 19 similar notions: 0
-cs graphics 22 similar notions: 0
+android 63 similar notions: 0
+apple 59 similar notions: 0
 
 Number of potentially habitable planets in our galaxy Tens of billions.txt 
-cs algo 16 similar notions: 0
-cs graphics 17 similar notions: 0
+android 51 similar notions: 2
+apple 48 similar notions: 2
 
 Perseverance rover snaps first Mars photos after communications blackout. They're stunning..txt 
-cs algo 8 similar notions: 0
-cs graphics 10 similar notions: 0
+android 37 similar notions: 0
+apple 34 similar notions: 1
 
 Planet X Why not a tiny black hole instead.txt 
-cs algo 7 similar notions: 0
-cs graphics 24 similar notions: 0
+android 65 similar notions: 0
+apple 65 similar notions: 0
 
 Researchers think a planet lost its original atmosphere, built a new oneResearchers think a planet lost its original atmosphere, built a new one.txt 
-cs algo 10 similar notions: 0
-cs graphics 8 similar notions: 0
+android 42 similar notions: 0
+apple 35 similar notions: 0
 
 Synthetic biology moves into the realm of the unnatural.txt 
-cs algo 10 similar notions: 0
-cs graphics 22 similar notions: 0
+android 55 similar notions: 0
+apple 57 similar notions: 1
 
 The Space Force is starting to lean into innovative launch concepts.txt 
-cs algo 16 similar notions: 0
-cs graphics 15 similar notions: 0
+android 52 similar notions: 0
+apple 48 similar notions: 0
 
 Three iOS 0-days revealed by researcher frustrated with Apple’s bug bounty.txt 
-cs algo 13 similar notions: 0
-cs graphics 12 similar notions: 0
+android 64 similar notions: 1
+apple 71 similar notions: 10
 
 Wandering Earth Rocket scientist explains how we could move our planet.txt 
-cs algo 19 similar notions: 1
-cs graphics 15 similar notions: 0
+android 46 similar notions: 0
+apple 42 similar notions: 0
 
 Where the sun always shines Putting solar in space.txt 
-cs algo 17 similar notions: 0
-cs graphics 13 similar notions: 1
+android 55 similar notions: 2
+apple 48 similar notions: 1
 
 X-rays may have revealed the first planet outside our galaxy.txt 
-cs algo 13 similar notions: 0
-cs graphics 27 similar notions: 0
-
-“Drinking To Cope” Doesn’t Work, Even When We Believe That It Does.txt 
-cs algo 19 similar notions: 0
-cs graphics 24 similar notions: 0
+android 67 similar notions: 4
+apple 62 similar notions: 4
 
